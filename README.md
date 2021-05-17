@@ -3,7 +3,7 @@
 [01. colorMode()](https://processing.org/reference/colorMode_.html)  
 [02. constrain()](https://processing.org/reference/constrain_.html)  
 [03. loadPixels()](https://processing.org/reference/loadPixels_.html)  
-[04. pixels[]]https://processing.org/reference/pixels.html)  
+[04. pixels[]](https://processing.org/reference/pixels.html)  
 [05. pushStyle()](https://www.processing.org/reference/pushStyle_.html)  
 [06. pushMatrix()](https://processing.org/reference/pushMatrix_.html)    
 [07. translate()](https://processing.org/reference/translate_.html)    
