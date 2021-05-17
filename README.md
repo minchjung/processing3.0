@@ -1,6 +1,6 @@
 # processing3.0 Link of the Function Descript  
-[01 colorMode()](https://processing.org/reference/colorMode_.html)  
-[02 constrain()](https://processing.org/reference/constrain_.html)  
+[01. colorMode()](https://processing.org/reference/colorMode_.html)  
+[02. constrain()](https://processing.org/reference/constrain_.html)  
 [03. pushMatrix()](https://processing.org/reference/pushMatrix_.html)    
 [04. translate()](https://processing.org/reference/translate_.html)    
 [05. point()](https://processing.org/reference/point_.html)  
