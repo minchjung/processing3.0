@@ -1,5 +1,5 @@
 # processing3.0 Link of the Function Descript   (Processing base on Javascript Engine)
-#### [01~04 Drawing 사용된 함수 링크 0517] javascript 함수와 동일 
+#### [01~04 Drawing 사용된 함수 링크 0517] javascript 과 거의 모든게 일치함  
 [01. colorMode()](https://processing.org/reference/colorMode_.html)  
 [02. constrain()](https://processing.org/reference/constrain_.html)  
 [03. loadPixels](https://processing.org/reference/loadPixels_.html)  
