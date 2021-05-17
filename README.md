@@ -4,3 +4,4 @@
 [03. text()](https://processing.org/reference/text_.html)  
 [04. vertex()](https://processing.org/reference/vertex_.html)  
 [05. texture()](https://processing.org/reference/texture_.html)  
+[06. box()](https://processing.org/reference/box_.html)  
