@@ -1,9 +1,9 @@
-# processing3.0 Link of the Function Descript   (Processing base on Javascript Engine)
+# processing3.0 Link of the Function or Systemic Field Descript   (Processing base on Javascript Engine)
 #### [01~04 Drawing 사용된 함수 링크 0517] javascript 함수와 겹치는게 많으며 겹치는 함수는 100% 동일함  
 [01. colorMode()](https://processing.org/reference/colorMode_.html)  
 [02. constrain()](https://processing.org/reference/constrain_.html)  
 [03. loadPixels()](https://processing.org/reference/loadPixels_.html)  
-[04. pixels()](https://processing.org/reference/pixels.html)  
+[04. pixels[]]https://processing.org/reference/pixels.html)  
 [05. pushStyle()](https://www.processing.org/reference/pushStyle_.html)  
 [06. pushMatrix()](https://processing.org/reference/pushMatrix_.html)    
 [07. translate()](https://processing.org/reference/translate_.html)    
