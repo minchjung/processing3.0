@@ -2,8 +2,8 @@
 #### [01~04 Drawing 사용된 함수 링크 0517]
 [01. colorMode()](https://processing.org/reference/colorMode_.html)  
 [02. constrain()](https://processing.org/reference/constrain_.html)  
-[03. loadPixels](https://processing.org/reference/loadPixels_.html)
-[04. pushStyle](https://www.processing.org/reference/pushStyle_.html)
+[03. loadPixels](https://processing.org/reference/loadPixels_.html)  
+[04. pushStyle](https://www.processing.org/reference/pushStyle_.html)  
 [05. pushMatrix()](https://processing.org/reference/pushMatrix_.html)    
 [06. translate()](https://processing.org/reference/translate_.html)    
 [07. point()](https://processing.org/reference/point_.html)  
