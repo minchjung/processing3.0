@@ -14,3 +14,4 @@
 [12. texture()](https://processing.org/reference/texture_.html)    
 [13. box()](https://processing.org/reference/box_.html) 
 #### :link:[05~08 Drawing]  
+[:white_check_mark: 01.Gray Grid Basic](https://github.com/minchjung/processing3.0/commit/76b0a8bf8fc07f5fbef5dc37f55d4e10be4bbeea)
