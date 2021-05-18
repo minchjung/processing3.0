@@ -13,7 +13,7 @@
 [11. vertex()](https://processing.org/reference/vertex_.html)    
 [12. texture()](https://processing.org/reference/texture_.html)    
 [13. box()](https://processing.org/reference/box_.html)   
-[14. mousePressed, :arrow_left: 🔴:MUST OVERRIDE FUCNTION 🔴:](https://processing.org/reference/mousePressed_.html)    
+[14. mousePressed 🔴MUST OVERRIDE FUCNTION 🔴](https://processing.org/reference/mousePressed_.html)    
 [15. PGraphics](https://processing.org/reference/PGraphics.html)  
 
 #### :link: Library && API (:eggplant: Processing ,  :chestnut:Java )
