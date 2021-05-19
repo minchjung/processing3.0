@@ -154,7 +154,6 @@ void applyColor() {  // Generate the heat map
 }
 ```
 <br>
------
 ## Processing3.0 Library
 #### :link:  Function && Systemic variables  
 [01. colorMode()](https://processing.org/reference/colorMode_.html)  
