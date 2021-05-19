@@ -38,9 +38,9 @@
 # Study and Working on the Project Heatmap by Refactoring, Interpolation
 #### 🔗: Interpolation   
 
-
+[Pixel lerpColor lerInterpolation](https://github.com/minchjung/processing3.0/commit/01221a6c4aad188f886cc5b4699cd3ed9a4c4985)
 ```java
-void draw(){
+void draw(){ //한글 주석 달려고 여기 씀 
   while (myPort.available() > 0 ) { // Serial 로 받는 input이 있을때 까지 
  
     //Expand array size to the number of bytes you expect
