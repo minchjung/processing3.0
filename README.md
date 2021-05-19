@@ -177,4 +177,4 @@ void applyColor() {  // Generate the heat map
   }
 }
 ```
-[Pixel lerpColor lerInterpolation]()
+[Pixel lerpColor lerInterpolation](https://github.com/minchjung/processing3.0/commit/01221a6c4aad188f886cc5b4699cd3ed9a4c4985)
