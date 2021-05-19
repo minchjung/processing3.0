@@ -48,15 +48,15 @@ void draw(){ //한글 주석 달려고 여기 씀
     myPort.readBytesUntil('\n', inBuffer); //Serial input list로부터 
                   //개행전까지 읽어서 byte 어레이에 담음
  
-    if (inBuffer != null) { // while에서 포트에 값에 있을때만  
-    //inBuffer로 옮겼기 때문에 이중처리 일 수 있는데  underflow를 꼼꼼하게 체크하기 위함인듯)
+    if (inBuffer != null) { // 포트에 값에 있을때만  
+    //inBuffer로 옮겼기 때문에 while처리 조건에 이중처리 일 수 있는데  underflow를 꼼꼼하게 체크하기 위함인듯)
       myString = new String(inBuffer); // 전역에 선언된 String  변수에 inBuffer배열값을 String으로 할당
       list = split(myString, ','); // 위의 할당된 버퍼의(String으로 캐스팅된)bite값을 콤마(,) 단위로 쪼개서 리스트
-     //그 값을 다시8로 두번 쪼개서 16x16 돌려줌 
+     //그 값을 다시8로 쪼개서 8x8 돌려줌 
       for (int i = 0; i < (list.length)/8; i++) { 
          for (j = 0; j < (list.length)/8; j++) {
           array[j][i] = float(list[m]); 버퍼의 //bite값을 array에 한개씩 할당
-          m++; // 0부터~16까지 인덱스용으로 사용되는 m (전역선언 m=0)
+          m++; // 0부터~8까지 인덱스용으로 사용되는 m (전역선언 m=0)
         }
       }
       m = 0; // index = 0으로 초기화 
@@ -77,13 +77,13 @@ void bilinearInterpolation() {  // Bi-linear Interpolation algorithm
       if (x<0) // -1을 0 으로 
          x=0;
       if (y<0)
-        y=0; //==> x,y = 0,199,399,599,799,....1399 로 설정 (16바퀴) 
+        y=0; //==> x,y = 0,199,399,599,799,....1399 로 설정 (8바퀴) 
       interp_array[y][x] = array[i][j]; //interp_array[0][0]= Serial bite 값을 순서대로 할당(float임)   
       //interp_array[199][199]= 두번째 bite 값 
       // ... 이렇게 200 간격으로 띄음 띄음 늘려서 설정
       // interp_array[1399][1399] = 마지막 serial bite 값 
       //길이 1400 전역설정
-    } // Serial bite 값을 16x16으로 쪼개서 들어올때마다 위 과정 반복 
+    } // Serial bite 값을 8x8로 쪼개서 들어올때마다 위 과정 반복 
   }
  // interp_array에 띄엄띄엄 serial bite 값이 할당되면 
   for (int y=0; y<rows; y++) {//rows 1400 <--- 이게 canvas size 란다. (factor t=200으로 계산됨)
@@ -91,7 +91,7 @@ void bilinearInterpolation() {  // Bi-linear Interpolation algorithm
     int dy2 = ceil(y/(t*1.0));  // facor t =200 간격으로 dy1는 소수점 버리고 dy2는 올림으로 설정 
     // 둘의 차이는 항상 0 아니면 1  (200 배수가 아니면 차이가 남)
     int y1 = dy1*t - 1; // gradient,, 그걸 기울기로 각각 사용,  ex) rows-1 일때 y1=1199, y2=1399 
-    int y2 = dy2*t - 1;  // 16x16 원지점 ==200 배수가 아닌지점 에서는 차이는 200씩 
+    int y2 = dy2*t - 1;  // 8x8 원지점 ==200 배수가 아닌지점 에서는 차이는 200씩 
    
     if (y1<0) // y1 ,y2 음수 (모서리 구석진곳의 index 시작값) 0 설정
       y1 = 0;
@@ -111,7 +111,7 @@ void bilinearInterpolation() {  // Bi-linear Interpolation algorithm
       float q12 = array[dy2][dx1]; //array[1,1,1,1,1,1,...2,2,2,2,2.....3,3,3,3,3,....6,6,6,6,6......7,7,7,7..200번씩][0~6까지 200번씩]
       float q21 = array[dy1][dx2]; //array[0 ~6까지 200번씩][1~7까지 200번씩]
       float q22 = array[dy2][dx2]; //array[1 ~7까지 200번씩][1~7까지 200번씩]     
-      int count = 0; // 16x16의 인덱스를 원하는 배수(200배)로 나눠서 올림,버림으로 쪼개고, 4 -direction[상하좌우]로 조합한것  
+      int count = 0; // 8x8의 인덱스를 원하는 배수(200배)로 나눠서 올림,버림으로 쪼개고, 4 -direction[상하좌우]로 조합한것  
       if (q11>0)
         count++;
       if (q12>0)
@@ -156,7 +156,7 @@ void applyColor() {  // Generate the heat map
  
   for (int i = 0; i < rows; i++) {//1400 by 1400
     for (int j = 0; j < cols; j++) {
-      float value = interp_array[i][j]; // 16x16=> 늘려져서 할당된 값 차례로 꺼냄  
+      float value = interp_array[i][j]; //8x8=> 늘려져서 할당된 값 차례로 꺼냄  
       color c;
       float fraction;
       //값을 4구간 나눠서 색 할당 
