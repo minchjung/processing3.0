@@ -50,9 +50,9 @@ void draw(){
  
     if (inBuffer != null) { // while에서 포트에 값에 있을때만  
     //inBuffer로 옮겼기 때문에 이중처리 일 수 있는데  underflow를 꼼꼼하게 체크하기 위함인듯)
-      myString = new String(inBuffer); 전역에 선언된 String  변수에 inBuffer배열값을 String으로 할당한다 
-      list = split(myString, ','); // 위의 할당된 버퍼의(String으로 캐스팅된)bite값을 콤마(,) 단위로 쪼개서 리스트로 닮고 
-     //그 값을 다시8로 두번 쪼개서 16x16 으로 돌려줌 
+      myString = new String(inBuffer); // 전역에 선언된 String  변수에 inBuffer배열값을 String으로 할당
+      list = split(myString, ','); // 위의 할당된 버퍼의(String으로 캐스팅된)bite값을 콤마(,) 단위로 쪼개서 리스트
+     //그 값을 다시8로 두번 쪼개서 16x16 돌려줌 
       for (int i = 0; i < (list.length)/8; i++) { 
          for (j = 0; j < (list.length)/8; j++) {
           array[j][i] = float(list[m]); 버퍼의 //bite값을 array에 한개씩 할당
@@ -78,27 +78,27 @@ void bilinearInterpolation() {  // Bi-linear Interpolation algorithm
          x=0;
       if (y<0)
         y=0; //==> x,y = 0,199,399,599,799,....1399 로 설정 (16바퀴) 
-      interp_array[y][x] = array[i][j]; //interp_array[0][0]= Serial bite 값을 순서대로 할당함(float임)   
+      interp_array[y][x] = array[i][j]; //interp_array[0][0]= Serial bite 값을 순서대로 할당(float임)   
       //interp_array[199][199]= 두번째 bite 값 
-      // ... 이렇게 약 200 간격으로 띄움 띄움 들어간다
+      // ... 이렇게 200 간격으로 띄음 띄음 늘려서 설정
       // interp_array[1399][1399] = 마지막 serial bite 값 
       //길이 1400 전역설정
-    } // Serial bite 값을 16x16으로 쪼개질 때마다 설정 
+    } // Serial bite 값을 16x16으로 쪼개서 들어올때마다 위 과정 반복 
   }
  // interp_array에 띄엄띄엄 serial bite 값이 할당되면 
   for (int y=0; y<rows; y++) {//rows 1400 <--- 이게 canvas size 란다. (factor t=200으로 계산됨)
     int dy1 = floor(y/(t*1.0)); //세로로 gradient 만드는 작업을  하는듯
     int dy2 = ceil(y/(t*1.0));  // facor t =200 간격으로 dy1는 소수점 버리고 dy2는 올림으로 설정 
     // 둘의 차이는 항상 0 아니면 1  (200 배수가 아니면 차이가 남)
-    int y1 = dy1*t - 1; // gradient,, 그걸 기울기로 각각 사용,  rows-1 일때 y1=1199, y2=1399 
+    int y1 = dy1*t - 1; // gradient,, 그걸 기울기로 각각 사용,  ex) rows-1 일때 y1=1199, y2=1399 
     int y2 = dy2*t - 1;  // 
    
-    if (y1<0) // y1 ,y2 음수 (모서리 구석진곳) 구간은 0 
+    if (y1<0) // y1 ,y2 음수 (모서리 구석진곳의 index 시작값) 0 설정
       y1 = 0;
     if (y2<0)
       
-    for (int x=0; x<cols; x++) { // 가로 방향 수행해 
-    //세로 y번째 후  0~1400번째 까지 가로 x다 all 처리
+    for (int x=0; x<cols; x++) { 
+    //세로 y번째, 가로 0~1400번째 위와 동일 처리
       int dx1 = floor(x/(t*1.0));// 
       int dx2 = ceil(x/(t*1.0));
       int x1 = dx1*t - 1;
@@ -108,10 +108,10 @@ void bilinearInterpolation() {  // Bi-linear Interpolation algorithm
       if (x2<0)
         x2 = 0;
       float q11 = array[dy1][dx1]; //array[0,0,0,0,0,0,...1,1,1,1,1,1,....2,2,2,2,2.....3,3,3,3,3,....6,6,6,6,6 200번씩, 마지막7한번][가로줄도 동일] 
-      float q12 = array[dy2][dx1]; //array[1,1,1,1,1,1,...2,2,2,2,2.....3,3,3,3,3,....6,6,6,6,6......7,7,7,7..200번씩][0~6까지 200번 마지막7한번]
+      float q12 = array[dy2][dx1]; //array[1,1,1,1,1,1,...2,2,2,2,2.....3,3,3,3,3,....6,6,6,6,6......7,7,7,7..200번씩][0~6까지 200번, 마지막7한번]
       float q21 = array[dy1][dx2]; //array[0 ~6까지 각각 200번씩 마지막 7한번][1~7까지 각각 200번씩]
       float q22 = array[dy2][dx2]; //array[1~7까지 각각 200번씩][1~7까지 각각 200번씩]     
-      int count = 0; // 16x16의 인덱스를 원하는 배수(200배)로 나눠서 올림,버림으로 쪼개고, 그거를 4가지 direction으로 조합 
+      int count = 0; // 16x16의 인덱스를 원하는 배수(200배)로 나눠서 올림,버림으로 쪼개고, 4 -direction[상하좌우]로 조합한것  
       if (q11>0)
         count++;
       if (q12>0)
@@ -122,27 +122,27 @@ void bilinearInterpolation() {  // Bi-linear Interpolation algorithm
         count++; // 
  
       if (count>2) { // 값이 3개 이상이면 
-        if (!(y1==y2 && x1==x2)) { // 세로 가로 방향 두 값중 하나라도 gradient 적용 값이 다를때 
+        if (!(y1==y2 && x1==x2)) { // 세로 가로 방향 두 값중 하나라도 gradient 적용 인덱스 다를때 
  
-          float t1 = (x-x1); // 차이값들 담아주고  
+          float t1 = (x-x1); // 각각의 원 지점 인덱스와 내림값 올림값들의 차이값 =new gradient 설정  
           float t2 = (x2-x); 
           float t3 = (y-y1);
           float t4 = (y2-y);
           float t5 = (x2-x1);
           float t6 = (y2-y1);
  
-          if (y1==y2) { // 세로로 같을때의 경우는 가로열 차이가 있는 q11,q21값을 바뀐 해당 gradient 해주고 더함...
+          if (y1==y2) { // 세로로 같을때의 경우는 가로열 차이가 있는 q11,q21값을   (올림설정값-원래값 +원래값-내림설정값)/(가로 최대 차이) 
             interp_array[y][x] = q11*t2/t5 + q21*t1/t5;
           } else if (x1==x2) { // 가로로 같을때 세로줄 차이가 있는 것들을 똑같이 하고 
             interp_array[y][x] = q11*t4/t6 + q12*t3/t6;
           } else { // 
-            float diff = t5*t6; // 완전 다르면 아래처럼 하나보다..;;;;;
+            float diff = t5*t6; // 완전 다르면 아래처럼 각가의 케이스를 모두 계산 완전 차이나는 t5,t6로 기울기 깍아줌;;;;;
             interp_array[y][x] = (q11*t2*t4 + q21*t1*t4 + q12*t2*t3 + q22*t1*t3)/diff;
           }
-        } else { // 둘다 같으면 둘다같은 q11
+        } else { // 둘다 같으면 둘다같은 q11값 설정
           interp_array[y][x] = q11;
         }
-      } else {// 3개 이하면 값 할당 안함 
+      } else {// 할당값 3개 이하면 늘려서 할당 안함 
         interp_array[y][x] = 0;
       }
     }
