@@ -35,8 +35,9 @@
 [:x: HSB Grid MouseEvent](https://github.com/minchjung/processing3.0/commit/a258af83b770b330eec3ff04bf2abfa14688b81b)  
 <br>
 ***
-#### 🔗: Interpolation && Study Serial port  
-##### Interplation
+# Study
+#### 🔗: Interpolation   
+
 ```java
 void bilinearInterpolation() {  // Bi-linear Interpolation algorithm
   for (int i=0; i<r; i++) { r,c=8
@@ -50,4 +51,36 @@ void bilinearInterpolation() {  // Bi-linear Interpolation algorithm
       interp_array[y][x] = array[i][j]; //interp_array[200*(8-1)][200*(8-1)]
     }
   }
+```
+```java
+void draw()
+{
+  while (myPort.available() > 0 ) { // Serial 로 받는 input이 있을때 까지 
+ 
+    //Expand array size to the number of bytes you expect
+    byte[] inBuffer = new byte[1024]; //매번 byte 배열을 생성해서 
+    myPort.readBytesUntil('\n', inBuffer); //Serial input list로부터 
+                  //개행전까지 읽어서 byte 어레이에 담음
+ 
+    if (inBuffer != null) { // while에서 포트에 값이 있는게 처리고 값이 있을때만 
+    //inBuffer로 옮겼기 때문에 이중처리 일 수 있는데  underflow를 꼼꼼하게 체크하기 위함인듯)
+      myString = new String(inBuffer); 전역에 선언된 String  변수에 inBuffer배열값을 String으로 할당한다 
+      list = split(myString, ','); // 위의 할당된 버퍼의(String으로 캐스팅된)bite값을 콤마(,) 단위로 쪼개서 리스트로 닮고 
+     //그 값을 다시8로 두번 쪼개서 16x16 으로 돌려줌 
+      for (int i = 0; i < (list.length)/8; i++) { 
+         for (j = 0; j < (list.length)/8; j++) {
+          array[j][i] = float(list[m]); 버퍼의 //bite값을 array에 한개씩 할당한다
+          m++; // 0부터~16까지 인덱스용으로 사용되는 m (전역선언 m=0되있음)
+        }
+      }
+      m = 0; // array bite값을 모두 float로 할당하면 다시 0으로 초기화하고 다음 serial 값을 빌때까지 반복하것지 .. 
+    }
+  } 
+  // 그 전에 serial 의 값이 flaot를 array에 다 할당되면 Interpolation 과 Color를 설정하러 간다
+  bilinearInterpolation();  //these are IN the while loop
+  applyColor();
+// Serial 값이 필때까지 반복한다 
+}
+ 
+ 
 ```
