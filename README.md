@@ -35,8 +35,8 @@
 [:x: HSB Grid MouseEvent](https://github.com/minchjung/processing3.0/commit/a258af83b770b330eec3ff04bf2abfa14688b81b)  
 <br>
 ***
-# Study and Working on the Project Heatmap by Refactoring, Interpolation
-#### 🔗: Interpolation   
+# Project --Heatmap by Refactoring, Interpolation
+#### 🔗: Interpolation - Study and Work   
 
 [Pixel lerpColor lerInterpolation](https://github.com/minchjung/processing3.0/commit/01221a6c4aad188f886cc5b4699cd3ed9a4c4985)
 ```java
