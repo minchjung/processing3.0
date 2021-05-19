@@ -174,7 +174,7 @@ void applyColor() {  // Generate the heat map
 [14. mousePressed : Need to overrid the function](https://processing.org/reference/mousePressed_.html)    
 [15. PGraphics](https://processing.org/reference/PGraphics.html)   
 [16. lerp()  on Project 🎯](https://processing.org/reference/lerp_.html)    
-[17. lerpColor() o n Project 🎯](https://www.processing.org/reference/lerpColor_.html)    
+[17. lerpColor() on Project 🎯](https://www.processing.org/reference/lerpColor_.html)    
 #### :link: Data-Structure && API (:eggplant: Processing ,  :chestnut:Java )
 [:eggplant: ArrayList](https://processing.org/reference/ArrayList.html)     
 [:eggplant: Peasycam](http://mrfeinberg.com/peasycam/)  
