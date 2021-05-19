@@ -36,7 +36,7 @@
 <br>
 ***
 #### 🔗: Interpolation && Study Serial port  
-***** Interplation
+##### Interplation
 ```java
 void bilinearInterpolation() {  // Bi-linear Interpolation algorithm
   for (int i=0; i<r; i++) { r,c=8
