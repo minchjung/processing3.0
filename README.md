@@ -38,20 +38,7 @@
 # Study
 #### 🔗: Interpolation   
 
-```java
-void bilinearInterpolation() {  // Bi-linear Interpolation algorithm
-  for (int i=0; i<r; i++) { r,c=8
-    for (int j=0; j<c; j++) {
-      int x = j*t - 1;  // t = 200 Interpolation factor
-      int y = i*t - 1;
-      if (x<0)
-        x=0;
-      if (y<0)
-        y=0;                             // interp_array[rows][cols], rows,cols = (r-1)*t
-      interp_array[y][x] = array[i][j]; //interp_array[200*(8-1)][200*(8-1)]
-    }
-  }
-```
+
 ```java
 void draw()
 {
@@ -79,8 +66,95 @@ void draw()
   // 그 전에 serial 의 값이 flaot를 array에 다 할당되면 Interpolation 과 Color를 설정하러 간다
   bilinearInterpolation();  //these are IN the while loop
   applyColor();
-// Serial 값이 필때까지 반복한다 
+// Serial 값이 때까지 반복한다 
 }
  
+ 
+```
+```java
+void bilinearInterpolation() {  // Bi-linear Interpolation algorithm
+ 
+  for (int i=0; i<r; i++) { //r=8
+    for (int j=0; j<c; j++) { //c=8
+      int x = j*t - 1; //t=200 
+      int y = i*t - 1; //     x ,y= -1 ~ (1400-1) 까지 설정 되는데  
+      if (x<0) // 음수는 둘다 0 으로 만든다
+         x=0;
+      if (y<0)
+        y=0; //==> x,y = 0,199,399,599,799,....1399 로 설정되서 16번 돈다 
+      interp_array[y][x] = array[i][j]; //interp_array[0][0]= Serial bite 값을 순서대로 할당함(float임)   
+      //interp_array[199][199]= 두번째 bite 값 
+      // ... 이렇게 약 200 간격으로 띄움 띄움 들어간다
+      // interp_array[1399][1399] = 마지막 serial bite 값 
+      //길이 1400까지 설정됨 .. 차 아슬하게도한돠암.ㅇㅇ
+    } // 이게 Serial bite 값을 16x16으로 쪼개진 단위 마다 설정 
+  }
+ // interp_array에 띄엄띄엄 serial bite 값이 할당되면 
+  for (int y=0; y<rows; y++) {//rows 1400 <--- 이게 canvas size 란다. 
+    int dy1 = floor(y/(t*1.0)); //세로로 gradient 만드는 작업을 수동으로 하는듯 하다 
+    int dy2 = ceil(y/(t*1.0));  // 방식은 간격을 factor t =200 간격으로 dy1는 소수점 버리고 dy2는 올림으로 설정 
+    // 둘의 차이는 항상 1이며 값은 0아니면 1    
+    int y1 = dy1*t - 1; // gradient,, 그걸 기울기로 각각 사용한다  
+    int y2 = dy2*t - 1; 
+    //따라서 y1,y2 =199 이거나 -1 일텐데 그때 y2가 199면 y1= -1 임 
+    if (y1<0)
+      y1 = 0;
+    if (y2<0)
+      y2 = 0; //이러면 차이나는 구간은 y2=199, y1= 0 이된다. 참 ..어렵게도 한다..
+    for (int x=0; x<cols; x++) { // 가로 방향도 x 로 똑같이 수행해준다 
+    //순서는 세로 y번째 하고 0~1400번째 까지 가로 x다 함
+      int dx1 = floor(x/(t*1.0));// 
+      int dx2 = ceil(x/(t*1.0));
+      int x1 = dx1*t - 1;
+      int x2 = dx2*t - 1;
+      if (x1<0)
+        x1 = 0;
+      if (x2<0)
+        x2 = 0;
+      //그러면 array[0][0,1,0,1,0,1..0,1] 
+      //       array[1][0,1,0,1,0....0,1]
+      float q11 = array[dy1][dx1];
+      float q12 = array[dy2][dx1];
+      float q21 = array[dy1][dx2];
+      float q22 = array[dy2][dx2];
+      // 그 지점에서 상하좌우로만 검사함 .. 그냥 BFS 하믄 안될라낭.,
+      int count = 0;
+      if (q11>0)
+        count++;
+      if (q12>0)
+        count++;
+      if (q21>0)
+        count++;
+      if (q22>0) // 값이 있으면 카운트해주고 
+        count++; // 딱 BFS 알고리즘을 기이이이일게 정렬한듯해 보인다. 
+ 
+      if (count>2) { // 값이 3개 이상이면서 
+        if (!(y1==y2 && x1==x2)) { // 두값중 하나라도 gradient 적용 값이 다를때 
+ 
+          float t1 = (x-x1); // factor를 바꾼다 
+          float t2 = (x2-x); 
+          // x,y는 canvas size pixel로 0~1400 일텐데 199값  or 0을 뺀  pixel 지점 그대로 값이 보정 상수로 새로 할당된다 ?  
+          float t3 = (y-y1);
+          float t4 = (y2-y);
+          float t5 = (x2-x1);
+          float t6 = (y2-y1);
+ 
+          if (y1==y2) { // 세로로 같을때의 경우는 가로열 차이가 있는 q11,q21값을 바뀐 해당 gradient 해주고 더함...
+            interp_array[y][x] = q11*t2/t5 + q21*t1/t5;
+          } else if (x1==x2) { // 가로로 같을때 세로줄 차이가 있는 것들을 똑같이 하고 
+            interp_array[y][x] = q11*t4/t6 + q12*t3/t6;
+          } else {
+            float diff = t5*t6; // 완전 다르면 아래처럼 하나보다..;;;;;
+            interp_array[y][x] = (q11*t2*t4 + q21*t1*t4 + q12*t2*t3 + q22*t1*t3)/diff;
+          }
+        } else { // 둘다 같으면 
+          interp_array[y][x] = q11;
+        }
+      } else {// 상하좌우 할당된 값이 3개 이하면 걍 0
+        interp_array[y][x] = 0;
+      }
+    }
+  }
+}
  
 ```
