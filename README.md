@@ -184,5 +184,3 @@ void applyColor() {  // Generate the heat map
 [:chestnut: Deque import.java.util.*](https://forum.processing.org/two/discussion/23900/fifo-and-lifo)  
 
 <br>  
-
-[top](##-project-heatmap-by-refactoring--interpolation)
