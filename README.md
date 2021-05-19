@@ -35,7 +35,7 @@
 [:x: HSB Grid MouseEvent](https://github.com/minchjung/processing3.0/commit/a258af83b770b330eec3ff04bf2abfa14688b81b)  
 <br>
 ***
-# Study
+# Study and Working on the Project Heatmap by Refactoring, Interpolation
 #### 🔗: Interpolation   
 
 
@@ -177,3 +177,4 @@ void applyColor() {  // Generate the heat map
   }
 }
 ```
+[Pixel lerpColor lerInterpolation]()
