@@ -156,7 +156,7 @@ void applyColor() {  // Generate the heat map
 [Pixel lerpColor lerInterpolation](https://github.com/minchjung/processing3.0/commit/01221a6c4aad188f886cc5b4699cd3ed9a4c4985)  
 <br>
 ***
-## Processing3.0 Library && Function
+## Processing3.0 Library
 #### :link:  Function && Systemic variables  
 [01. colorMode()](https://processing.org/reference/colorMode_.html)  
 [02. constrain()](https://processing.org/reference/constrain_.html)  
@@ -174,7 +174,7 @@ void applyColor() {  // Generate the heat map
 [14. mousePressed 🔴MUST OVERRIDE FUCNTION🔴](https://processing.org/reference/mousePressed_.html)    
 [15. PGraphics](https://processing.org/reference/PGraphics.html)  
 
-#### :link: Library && API (:eggplant: Processing ,  :chestnut:Java )
+#### :link: Data-Structure && API (:eggplant: Processing ,  :chestnut:Java )
 [:eggplant: ArrayList](https://processing.org/reference/ArrayList.html)     
 [:eggplant: Peasycam](http://mrfeinberg.com/peasycam/)  
 [:eggplant: Serial](https://www.processing.org/reference/libraries/serial/Serial.html)  
