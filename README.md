@@ -153,9 +153,8 @@ void applyColor() {  // Generate the heat map
   }
 }
 ```
-
 <br>
-***
+-----
 ## Processing3.0 Library
 #### :link:  Function && Systemic variables  
 [01. colorMode()](https://processing.org/reference/colorMode_.html)  
@@ -182,4 +181,4 @@ void applyColor() {  // Generate the heat map
 [:chestnut: HashMap: import.java.util.*](https://processing.org/reference/HashMap.html)  
 [:chestnut: Queue: import.java.util.*](https://forum.processing.org/two/discussion/23900/fifo-and-lifo)  
 [:chestnut: Deque import.java.util.*](https://forum.processing.org/two/discussion/23900/fifo-and-lifo)  
-***
+
