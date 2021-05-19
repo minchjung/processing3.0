@@ -87,7 +87,7 @@ void bilinearInterpolation() {  // Bi-linear Interpolation algorithm
   }
  // interp_array에 띄엄띄엄 serial bite 값이 할당되면 
   for (int y=0; y<rows; y++) {//rows 1400 <--- 이게 canvas size 란다. (factor t=200으로 계산됨)
-    int dy1 = floor(y/(t*1.0)); //세로로 gradient 만드는 작업을  하는듯
+    int dy1 = floor(y/(t*1.0)); //세로로 gradient 만드는 
     int dy2 = ceil(y/(t*1.0));  // facor t =200 간격으로 dy1는 소수점 버리고 dy2는 올림으로 설정 
     // 둘의 차이는 항상 0 아니면 1  (200 배수가 아니면 차이가 남)
     int y1 = dy1*t - 1; // gradient,, 그걸 기울기로 각각 사용,  ex) rows-1 일때 y1=1199, y2=1399 
