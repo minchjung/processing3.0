@@ -91,7 +91,7 @@ void bilinearInterpolation() {  // Bi-linear Interpolation algorithm
     int dy2 = ceil(y/(t*1.0));  // facor t =200 간격으로 dy1는 소수점 버리고 dy2는 올림으로 설정 
     // 둘의 차이는 항상 0 아니면 1  (200 배수가 아니면 차이가 남)
     int y1 = dy1*t - 1; // gradient,, 그걸 기울기로 각각 사용,  ex) rows-1 일때 y1=1199, y2=1399 
-    int y2 = dy2*t - 1;  // 
+    int y2 = dy2*t - 1;  // 16x16 원지점 ==200 배수가 아닌지점 에서는 차이는 200씩 
    
     if (y1<0) // y1 ,y2 음수 (모서리 구석진곳의 index 시작값) 0 설정
       y1 = 0;
@@ -107,10 +107,10 @@ void bilinearInterpolation() {  // Bi-linear Interpolation algorithm
         x1 = 0;
       if (x2<0)
         x2 = 0;
-      float q11 = array[dy1][dx1]; //array[0,0,0,0,0,0,...1,1,1,1,1,1,....2,2,2,2,2.....3,3,3,3,3,....6,6,6,6,6 200번씩, 마지막7한번][가로줄도 동일] 
-      float q12 = array[dy2][dx1]; //array[1,1,1,1,1,1,...2,2,2,2,2.....3,3,3,3,3,....6,6,6,6,6......7,7,7,7..200번씩][0~6까지 200번, 마지막7한번]
-      float q21 = array[dy1][dx2]; //array[0 ~6까지 각각 200번씩 마지막 7한번][1~7까지 각각 200번씩]
-      float q22 = array[dy2][dx2]; //array[1~7까지 각각 200번씩][1~7까지 각각 200번씩]     
+      float q11 = array[dy1][dx1]; //array[0,0,0,0,0,0,...1,1,1,1,1,1,....2,2,2,2,2.....3,3,3,3,3,....6,6,6,6,6 200번씩][0~6까지 200번씩] 
+      float q12 = array[dy2][dx1]; //array[1,1,1,1,1,1,...2,2,2,2,2.....3,3,3,3,3,....6,6,6,6,6......7,7,7,7..200번씩][0~6까지 200번씩]
+      float q21 = array[dy1][dx2]; //array[0 ~6까지 200번씩][1~7까지 200번씩]
+      float q22 = array[dy2][dx2]; //array[1 ~7까지 200번씩][1~7까지 200번씩]     
       int count = 0; // 16x16의 인덱스를 원하는 배수(200배)로 나눠서 올림,버림으로 쪼개고, 4 -direction[상하좌우]로 조합한것  
       if (q11>0)
         count++;
@@ -122,7 +122,7 @@ void bilinearInterpolation() {  // Bi-linear Interpolation algorithm
         count++; // 
  
       if (count>2) { // 값이 3개 이상이면 
-        if (!(y1==y2 && x1==x2)) { // 세로 가로 방향 두 값중 하나라도 gradient 적용 인덱스 다를때 ==> 200으로 나눠떨어진 원래 지점이 아닐때만
+        if (!(y1==y2 && x1==x2)) { // 세로 가로 방향 두 값중 하나라도 gradient 적용 인덱스 다를때 ==> 원래 지점이 아닌 늘려진 index일때만 
  
           float t1 = (x-x1); // 각각의 원 지점 인덱스와 내림값 올림값들의 차이값 =new gradient 설정  
           float t2 = (x2-x); 
@@ -133,13 +133,13 @@ void bilinearInterpolation() {  // Bi-linear Interpolation algorithm
  
           if (y1==y2) { // 세로로 같을때의 경우는 가로열 차이가 있는 q11,q21값을   (올림설정값-원래값 +원래값-내림설정값)/(가로 최대 차이) 
             interp_array[y][x] = q11*t2/t5 + q21*t1/t5;
-          } else if (x1==x2) { // 가로로 같을때 세로줄 차이가 있는 것들을 똑같이 하고 
+          } else if (x1==x2) { // 가로로 같을때 세로줄 차이가 있는 것들로 위와 동일 
             interp_array[y][x] = q11*t4/t6 + q12*t3/t6;
           } else { // 
-            float diff = t5*t6; // 완전 다르면 아래처럼 각가의 케이스를 모두 계산 완전 차이나는 t5,t6로 기울기 깍아줌;;;;;
+            float diff = t5*t6; // 완전 다르면 각각의 케이스를 모두 계산 후, 완전 차이나는 t5,t6로 기울기 깍아줌;;;;;
             interp_array[y][x] = (q11*t2*t4 + q21*t1*t4 + q12*t2*t3 + q22*t1*t3)/diff;
           }
-        } else { // 둘다 같으면 둘다같은 q11값 설정
+        } else { // 원 지점이면 q11값 설정
           interp_array[y][x] = q11;
         }
       } else {// 할당값 3개 이하면 늘려서 할당 안함 
@@ -156,7 +156,7 @@ void applyColor() {  // Generate the heat map
  
   for (int i = 0; i < rows; i++) {//1400 by 1400
     for (int j = 0; j < cols; j++) {
-      float value = interp_array[i][j]; // 16x16을 늘려서 값을 들고 있는걸 하나씩 꺼냄 
+      float value = interp_array[i][j]; // 16x16=> 늘려져서 할당된 값 차례로 꺼냄  
       color c;
       float fraction;
       //값을 4구간 나눠서 색 할당 
