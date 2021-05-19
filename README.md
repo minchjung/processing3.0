@@ -35,4 +35,19 @@
 [:x: HSB Grid MouseEvent](https://github.com/minchjung/processing3.0/commit/a258af83b770b330eec3ff04bf2abfa14688b81b)  
 <br>
 ***
-#### 🔗: Serial port && Interpolation--Study 
+#### 🔗: Interpolation && Study Serial port  
+***** Interplation
+'''java
+void bilinearInterpolation() {  // Bi-linear Interpolation algorithm
+  for (int i=0; i<r; i++) { r,c=8
+    for (int j=0; j<c; j++) {
+      int x = j*t - 1;  // t = 200 Interpolation factor
+      int y = i*t - 1;
+      if (x<0)
+        x=0;
+      if (y<0)
+        y=0;                             // interp_array[rows][cols], rows,cols = (r-1)*t
+      interp_array[y][x] = array[i][j]; //interp_array[200*(8-1)][200*(8-1)]
+    }
+  }
+'''
