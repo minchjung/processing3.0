@@ -107,27 +107,25 @@ void bilinearInterpolation() {  // Bi-linear Interpolation algorithm
         x1 = 0;
       if (x2<0)
         x2 = 0;
-      float q11 = array[dy1][dx1]; //array[0][0,0,0,0,0,0,...1,1,1,1,1,1,....2,2,2,2,2.....3,3,3,3,3,....6,6,6,6,6 200번씩, 마지막7한번]까지 
-      float q12 = array[dy2][dx1]; //array[1][0,0,0,0,0,0,...1,1,1,1,1,1,....2,2,2,2,2.....3,3,3,3,3,....6,6,6,6,6 200번씩, 마지막7한번]까지
-      float q21 = array[dy1][dx2]; //array[0][0,0,0,0,0,0,...1,1,]
-      float q22 = array[dy2][dx2];
-      // 그 지점에서 상하좌우로만 검사함 .. **BFS하면?? 안되나?
-      int count = 0;
+      float q11 = array[dy1][dx1]; //array[0,0,0,0,0,0,...1,1,1,1,1,1,....2,2,2,2,2.....3,3,3,3,3,....6,6,6,6,6 200번씩, 마지막7한번][가로줄도 동일] 
+      float q12 = array[dy2][dx1]; //array[1,1,1,1,1,1,...2,2,2,2,2.....3,3,3,3,3,....6,6,6,6,6......7,7,7,7..200번씩][0~6까지 200번 마지막7한번]
+      float q21 = array[dy1][dx2]; //array[0 ~6까지 각각 200번씩 마지막 7한번][1~7까지 각각 200번씩]
+      float q22 = array[dy2][dx2]; //array[1~7까지 각각 200번씩][1~7까지 각각 200번씩]     
+      int count = 0; // 16x16의 인덱스를 원하는 배수(200배)로 나눠서 올림,버림으로 쪼개고, 그거를 4가지 direction으로 조합 
       if (q11>0)
         count++;
       if (q12>0)
         count++;
       if (q21>0)
         count++;
-      if (q22>0) // 값이 있으면 카운트해주고 
-        count++; // 딱 BFS 알고리즘 
+      if (q22>0) // 값이 있으면 카운트 
+        count++; // 
  
       if (count>2) { // 값이 3개 이상이면 
         if (!(y1==y2 && x1==x2)) { // 세로 가로 방향 두 값중 하나라도 gradient 적용 값이 다를때 
  
-          float t1 = (x-x1); // factor를 바꾼다  그 지점 과 
+          float t1 = (x-x1); // 차이값들 담아주고  
           float t2 = (x2-x); 
-          // x,y는 canvas size pixel로 0~1400 일텐데 199값  or 0을 뺀  pixel 지점 그대로 값이 보정 상수로 새로 할당된다 ?  
           float t3 = (y-y1);
           float t4 = (y2-y);
           float t5 = (x2-x1);
@@ -141,10 +139,10 @@ void bilinearInterpolation() {  // Bi-linear Interpolation algorithm
             float diff = t5*t6; // 완전 다르면 아래처럼 하나보다..;;;;;
             interp_array[y][x] = (q11*t2*t4 + q21*t1*t4 + q12*t2*t3 + q22*t1*t3)/diff;
           }
-        } else { // 둘다 같으면 
+        } else { // 둘다 같으면 둘다같은 q11
           interp_array[y][x] = q11;
         }
-      } else {// 상하좌우 할당된 값이 3개 이하면 걍 0
+      } else {// 3개 이하면 값 할당 안함 
         interp_array[y][x] = 0;
       }
     }
