@@ -122,7 +122,7 @@ void bilinearInterpolation() {  // Bi-linear Interpolation algorithm
         count++; // 
  
       if (count>2) { // 값이 3개 이상이면 
-        if (!(y1==y2 && x1==x2)) { // 세로 가로 방향 두 값중 하나라도 gradient 적용 인덱스 다를때 
+        if (!(y1==y2 && x1==x2)) { // 세로 가로 방향 두 값중 하나라도 gradient 적용 인덱스 다를때 ==> 200으로 나눠떨어진 원래 지점이 아닐때만
  
           float t1 = (x-x1); // 각각의 원 지점 인덱스와 내림값 올림값들의 차이값 =new gradient 설정  
           float t2 = (x2-x); 
@@ -154,14 +154,14 @@ void applyColor() {  // Generate the heat map
   color c3 = color(255, 0, 0);  // Red color
   color c4 = color(255, 255, 0);  // Yellow color
  
-  for (int i = 0; i < rows; i++) {
+  for (int i = 0; i < rows; i++) {//1400 by 1400
     for (int j = 0; j < cols; j++) {
-      float value = interp_array[i][j];
+      float value = interp_array[i][j]; // 16x16을 늘려서 값을 들고 있는걸 하나씩 꺼냄 
       color c;
       float fraction;
- 
+      //값을 4구간 나눠서 색 할당 
       if (value>=1 && value<2) {
-        fraction = (value-1)/1.0;
+        fraction = (value-1)/1.0; 
         c = lerpColor(c1, c2, fraction);
       } else if (value>=2 && value<3) {
         fraction = (value-2)/1.0;
@@ -171,8 +171,8 @@ void applyColor() {  // Generate the heat map
         c = lerpColor(c3, c4, fraction);
       } else
       c = c4;
-      stroke(c);
-      point(j, i);
+      stroke(c); //테두리도 같은색할당
+      point(j, i); //할당된 색으로 해당 지점 점찍음
     }
   }
 }
