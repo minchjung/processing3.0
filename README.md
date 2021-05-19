@@ -9,6 +9,7 @@
 #### 🟣 Working On  [Not Done yet] 
 * [:balloon: Pixel lerpColor lerInterpolation 16x16 to 240x240](https://github.com/minchjung/processing3.0/commit/01221a6c4aad188f886cc5b4699cd3ed9a4c4985)  
 * [:balloon: Pixel lerpColor lerInterpolation 16x16 to 320x320](https://github.com/minchjung/processing3.0/commit/10891942edd978d1e93fdf007e40d6474c53ba1a)  
+<br>
 <br>   
 
 [사용 라이브러리](#processing30-library)
@@ -172,8 +173,8 @@ void applyColor() {  // Generate the heat map
 [13. box()](https://processing.org/reference/box_.html)   
 [14. mousePressed : Need to overrid the function](https://processing.org/reference/mousePressed_.html)    
 [15. PGraphics](https://processing.org/reference/PGraphics.html)   
-[16. lerp on Project 🎯](https://processing.org/reference/lerp_.html)    
-[17. lerpColor on Project 🎯](https://www.processing.org/reference/lerpColor_.html)    
+[16. lerp()  on Project 🎯](https://processing.org/reference/lerp_.html)    
+[17. lerpColor() o n Project 🎯](https://www.processing.org/reference/lerpColor_.html)    
 #### :link: Data-Structure && API (:eggplant: Processing ,  :chestnut:Java )
 [:eggplant: ArrayList](https://processing.org/reference/ArrayList.html)     
 [:eggplant: Peasycam](http://mrfeinberg.com/peasycam/)  
