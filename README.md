@@ -14,6 +14,10 @@
 
 [Pixel lerpColor lerInterpolation 16x16 to 240x240](https://github.com/minchjung/processing3.0/commit/01221a6c4aad188f886cc5b4699cd3ed9a4c4985)  
 [Pixel lerpColor lerInterpolation 16x16 to 320x320](https://github.com/minchjung/processing3.0/commit/10891942edd978d1e93fdf007e40d6474c53ba1a)  
+<span>함수 참조 </span>
+* [16. lerp](https://processing.org/reference/lerp_.html)  
+* [17. lerpColor](https://www.processing.org/reference/lerpColor_.html)  
+
 ```java
 void draw(){ //한글 주석 달려고 여기 씀 
   while (myPort.available() > 0 ) { // Serial 로 받는 input이 있을때 까지 
@@ -171,8 +175,9 @@ void applyColor() {  // Generate the heat map
 [12. texture()](https://processing.org/reference/texture_.html)    
 [13. box()](https://processing.org/reference/box_.html)   
 [14. mousePressed 🔴MUST OVERRIDE FUCNTION🔴](https://processing.org/reference/mousePressed_.html)    
-[15. PGraphics](https://processing.org/reference/PGraphics.html)  
-
+[15. PGraphics](https://processing.org/reference/PGraphics.html) 
+[16. lerp](https://processing.org/reference/lerp_.html)  
+[17. lerpColor](https://www.processing.org/reference/lerpColor_.html)  
 #### :link: Data-Structure && API (:eggplant: Processing ,  :chestnut:Java )
 [:eggplant: ArrayList](https://processing.org/reference/ArrayList.html)     
 [:eggplant: Peasycam](http://mrfeinberg.com/peasycam/)  
