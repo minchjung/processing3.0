@@ -19,6 +19,7 @@
 #### :link: Library && API (:eggplant: Processing ,  :chestnut:Java )
 [:eggplant: ArrayList](https://processing.org/reference/ArrayList.html)     
 [:eggplant: Peasycam](http://mrfeinberg.com/peasycam/)  
+[:eggplant: Serial](https://www.processing.org/reference/libraries/serial/Serial.html)  
 [:chestnut: HashMap: import.java.util.*](https://processing.org/reference/HashMap.html)  
 [:chestnut: Queue: import.java.util.*](https://forum.processing.org/two/discussion/23900/fifo-and-lifo)  
 [:chestnut: Deque import.java.util.*](https://forum.processing.org/two/discussion/23900/fifo-and-lifo)  
