@@ -12,12 +12,12 @@
 * [:point_right: Pixel lerpColor lerInterpolation 16x16 to 400x400](https://github.com/minchjung/processing3.0/commit/c26e4a2f49e489497fdf838975d4bacb418cc3cc)
 <br>
 
-[사용 라이브러리](#processing30-library)
+[**사용 라이브러리**](#processing30-library)
   
 ----
 ## 📕 Study - Interpolation 
 
-[원본 코드](https://forum.processing.org/two/discussion/26588/how-to-simplify-this-code-heat-map)  
+[**원본 코드**](https://forum.processing.org/two/discussion/26588/how-to-simplify-this-code-heat-map)  
 ```java
 void draw(){ //한글 주석 달려고 여기 씀 
   while (myPort.available() > 0 ) { // Serial 로 받는 input이 있을때 까지 
