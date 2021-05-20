@@ -156,6 +156,7 @@ void applyColor() {  // Generate the heat map
   }
 }
 ```
+[원본 코드](https://forum.processing.org/two/discussion/26588/how-to-simplify-this-code-heat-map)  
   
 ## Processing3.0 Library
 #### :link:  Function && Systemic variables  
