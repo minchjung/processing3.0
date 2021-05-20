@@ -187,8 +187,8 @@ void applyColor() {  // Generate the heat map
 
 <br>  
 
-#### 🔗: Processing Learning and Code Examples   
+#### 🔗: Processing: Dr.Shiffman Learning and Code Examples   
 
-[ Dr.Shiffman Youtube-channel](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)  
-[ Coding-challenge website]( https://thecodingtrain.com/)  
+[ Youtube](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)  
+[ Website]( https://thecodingtrain.com/)  
 [ GitHub](https://github.com/CodingTrain)  
