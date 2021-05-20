@@ -18,6 +18,7 @@
 ----
 ## 📕 Study - Interpolation 
 
+[원본 코드](https://forum.processing.org/two/discussion/26588/how-to-simplify-this-code-heat-map)  
 ```java
 void draw(){ //한글 주석 달려고 여기 씀 
   while (myPort.available() > 0 ) { // Serial 로 받는 input이 있을때 까지 
@@ -156,7 +157,7 @@ void applyColor() {  // Generate the heat map
   }
 }
 ```
-[원본 코드](https://forum.processing.org/two/discussion/26588/how-to-simplify-this-code-heat-map)  
+
   
 ## Processing3.0 Library
 #### :link:  Function && Systemic variables  
