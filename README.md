@@ -18,6 +18,7 @@
 ## 📕 Study - Interpolation 
 
 [**원본 코드**](https://forum.processing.org/two/discussion/26588/how-to-simplify-this-code-heat-map)  
+[FrameRate](https://processing.org/reference/frameRate_.html)
 ```java
 void draw(){ //한글 주석 달려고 여기 씀 
   while (myPort.available() > 0 ) { // Serial 로 받는 input이 있을때 까지 
