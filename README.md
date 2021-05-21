@@ -178,6 +178,8 @@ void applyColor() {  // Generate the heat map
 [15. PGraphics](https://processing.org/reference/PGraphics.html)   
 [16. lerp()  on Project 🎯](https://processing.org/reference/lerp_.html)    
 [17. lerpColor() on Project 🎯](https://www.processing.org/reference/lerpColor_.html)    
+[18. frameRate()](https://processing.org/reference/frameRate_.html)  
+
 #### :link: Data-Structure && API (:eggplant: Processing ,  :chestnut:Java )
 [:eggplant: ArrayList](https://processing.org/reference/ArrayList.html)     
 [:eggplant: Peasycam](http://mrfeinberg.com/peasycam/)  
