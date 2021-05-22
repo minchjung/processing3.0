@@ -13,7 +13,7 @@
 * [:balloon: Grid Blue with Random Set 00](https://github.com/minchjung/processing3.0/commit/4062ccdd8389fe838efb2d272532538fa0192eaa)  
 * [:balloon: Grid Blue with Serial Parsing01](https://github.com/minchjung/processing3.0/commit/cdbf3628de6a8c12950a15dee3f85843e55f9955)  
 * [:balloon: Grid Blue with Serial Parsing02](https://github.com/minchjung/processing3.0/commit/79d615e1bf78aa0f8a8141ca9ec017aff3ac6e23)    
-* [:balloon: Grid Blue with Serial Parsing03]()  
+* [:balloon: Grid Blue with Serial Parsing03](https://github.com/minchjung/processing3.0/commit/bda92501fc080e658dc1f2e9951688c21d3374e3)  
 * [:balloon: Grid Blue with Serial Parsing04]()  
 <br>
 
