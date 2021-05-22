@@ -186,7 +186,8 @@ void applyColor() {  // Generate the heat map
 [18. frameRate() 🎯](https://processing.org/reference/frameRate_.html)  
 [19. millis 🎯](https://www.processing.org/reference/millis_.html)  
 [20. Serial.available()  👈 stack size of buffer && Port 🎯](https://processing.org/reference/libraries/serial/Serial_available_.html)    
-[21. Serail.readBytes()  👈 read all Bytes on the buffer && Port 🎯](https://processing.org/reference/libraries/serial/Serial_readBytes_.html)  
+[21. Serial.readBytes()  👈 read all Bytes on the buffer && Port 🎯](https://processing.org/reference/libraries/serial/Serial_readBytes_.html)  
+[22. Serial.readBytesUntil()  👈 read Bytes on the buffer till data 🎯](https://processing.org/reference/libraries/serial/Serial_readBytesUntil_.html)  
 
 #### :link: Data-Structure && API (:eggplant: Processing ,  :chestnut:Java )
 [:eggplant: ArrayList](https://processing.org/reference/ArrayList.html)     
