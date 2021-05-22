@@ -10,8 +10,8 @@
 * [:balloon: Pixel lerpColor lerInterpolation 16x16 to 240x240](https://github.com/minchjung/processing3.0/commit/01221a6c4aad188f886cc5b4699cd3ed9a4c4985)  
 * [:balloon: Pixel lerpColor lerInterpolation 16x16 to 320x320](https://github.com/minchjung/processing3.0/commit/10891942edd978d1e93fdf007e40d6474c53ba1a)    
 * [:point_right: Pixel lerpColor lerInterpolation 16x16 to 400x400](https://github.com/minchjung/processing3.0/commit/c26e4a2f49e489497fdf838975d4bacb418cc3cc)  
-* [:ballon: Grid Blue with Serial01](https://github.com/minchjung/processing3.0/commit/cdbf3628de6a8c12950a15dee3f85843e55f9955)  
-* [:ballon: Grid Blue with Serial02]()
+* [:balloon: Grid Blue with Serial01](https://github.com/minchjung/processing3.0/commit/cdbf3628de6a8c12950a15dee3f85843e55f9955)  
+* [:balloon: Grid Blue with Serial02]()
 <br>
 
 [**사용 라이브러리**](#processing30-library)
