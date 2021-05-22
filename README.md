@@ -12,7 +12,7 @@
 * [:point_right: Pixel lerpColor lerInterpolation 16x16 to 400x400](https://github.com/minchjung/processing3.0/commit/c26e4a2f49e489497fdf838975d4bacb418cc3cc)  
 * [:balloon: Grid Blue with Random Set 00](https://github.com/minchjung/processing3.0/commit/4062ccdd8389fe838efb2d272532538fa0192eaa)  
 * [:balloon: Grid Blue with Serial Parsing01](https://github.com/minchjung/processing3.0/commit/cdbf3628de6a8c12950a15dee3f85843e55f9955)  
-* [:balloon: Grid Blue with Serial Parsing02]()  
+* [:balloon: Grid Blue with Serial Parsing02](https://github.com/minchjung/processing3.0/commit/79d615e1bf78aa0f8a8141ca9ec017aff3ac6e23)    
 * [:balloon: Grid Blue with Serial Parsing03]()  
 * [:balloon: Grid Blue with Serial Parsing04]()  
 <br>
