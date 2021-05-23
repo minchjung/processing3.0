@@ -13,10 +13,10 @@
 <br/>  
 
 ----
-* [:x: Grid Blue with Random Input 00](https://github.com/minchjung/processing3.0/commit/4062ccdd8389fe838efb2d272532538fa0192eaa)  
+* [:white_check_mark: Grid Blue with Random Input 00](https://github.com/minchjung/processing3.0/commit/4062ccdd8389fe838efb2d272532538fa0192eaa)  
 * [:x: Grid Blue with Serial Parsing01 **Index, parsing**](https://github.com/minchjung/processing3.0/commit/cdbf3628de6a8c12950a15dee3f85843e55f9955)  
 * [:x: Grid Blue with Serial Parsing02 **Index, parsing**](https://github.com/minchjung/processing3.0/commit/79d615e1bf78aa0f8a8141ca9ec017aff3ac6e23)    
-* [:x: Grid Blue with Serial Parsing03 **Index*, parsing*](https://github.com/minchjung/processing3.0/commit/bda92501fc080e658dc1f2e9951688c21d3374e3)  
+* [:x: Grid Blue with Serial Parsing03 **Index*, parsing**](https://github.com/minchjung/processing3.0/commit/bda92501fc080e658dc1f2e9951688c21d3374e3)  
 <br/> 
 
 * [:white_check_mark: Gauge Random Number](https://github.com/minchjung/processing3.0/commit/ebace53341075796a0de1eeaedff14f743d48062)  
