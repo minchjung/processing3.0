@@ -5,13 +5,13 @@
 * [:white_check_mark: 03.Gray Grid Blur](https://github.com/minchjung/processing3.0/commit/a1ec1397cc06c6f0cd924a4250b7550ac959cce8)  
 * [:white_check_mark: 04.HSB Grid Basic](https://github.com/minchjung/processing3.0/commit/88a08d6d1a308f5b0ecf8a9aaf70f3be180f5891)   
 * [:white_check_mark: 05.HSB Grid Blur](https://github.com/minchjung/processing3.0/commit/9ac638407579eb7f734a2da2a06462141cb32af4)  
-* [:x: HSB Grid MouseEvent](https://github.com/minchjung/processing3.0/commit/a258af83b770b330eec3ff04bf2abfa14688b81b)  
-#### 🟣 [Heatmap-Interpolation]    FPS=0.25 ->100배
+* [~~:x: HSB Grid MouseEvent~~](https://github.com/minchjung/processing3.0/commit/a258af83b770b330eec3ff04bf2abfa14688b81b)  
+#### 🟣 [Heatmap-Interpolation]    ~~FPS=0.25 ->100배~~
 * [:balloon: Pixel lerpColor lerInterpolation 16x16 to 240x240](https://github.com/minchjung/processing3.0/commit/01221a6c4aad188f886cc5b4699cd3ed9a4c4985)  
 * [:balloon: Pixel lerpColor lerInterpolation 16x16 to 320x320](https://github.com/minchjung/processing3.0/commit/10891942edd978d1e93fdf007e40d6474c53ba1a)    
 * [:point_right: Pixel lerpColor lerInterpolation 16x16 to 400x400](https://github.com/minchjung/processing3.0/commit/c26e4a2f49e489497fdf838975d4bacb418cc3cc)    
 
-#### 🟣 [Grid-Blue]  Input & Array-index Check, Color, Serial Parsing Check     
+#### 🟣 [Grid-Blue]  Input & Array-index Check,  Color Check,   Serial Parsing Check     
 * [:white_check_mark: Grid Blue with Random Input](https://github.com/minchjung/processing3.0/commit/4062ccdd8389fe838efb2d272532538fa0192eaa)  
 * [:x: Grid Blue with Serial Parsing01](https://github.com/minchjung/processing3.0/commit/cdbf3628de6a8c12950a15dee3f85843e55f9955)  
 * [:x: Grid Blue with Serial Parsing02](https://github.com/minchjung/processing3.0/commit/79d615e1bf78aa0f8a8141ca9ec017aff3ac6e23)    
@@ -28,9 +28,8 @@
 ** [**Gauge different one**](https://github.com/BillKujawa/meter)  
 
 #### 🟣 [Display All]   Serial Parsing Check    
-* [:white_check_mark: Display All layout](https://github.com/minchjung/processing3.0/commit/6a535f6693d6be9fb1b67593bec32c6421030e0e) 
-* [:white_check_mark: Display All Random Input]()  
- 
+* [:white_check_mark: Display All layout](https://github.com/minchjung/processing3.0/commit/6a535f6693d6be9fb1b67593bec32c6421030e0e)  
+* [:white_check_mark: Display All Random Input](https://github.com/minchjung/processing3.0/commit/fcad487824c4f115f8d37043640a99223c0192fa)  
 ----  
 [**사용 라이브러리**](#processing30-library)      
 
