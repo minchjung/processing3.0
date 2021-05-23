@@ -22,7 +22,7 @@
 
 [**Gauge reference code01**](https://github.com/L3Dnam/Professional-Gauges-with-Processing) 
 [**Gauge reference code02**](https://thenewstack.io/off-the-shelf-hacker-use-processings-meter-library-to-build-gauges/)  
-[**Gauge on image reference](https://github.com/BillKujawa/meter)    
+[**Gauge on image reference**](https://github.com/BillKujawa/meter)    
   
 ----
 ## 📕 Study - Interpolation 
