@@ -21,11 +21,11 @@
 
 * [:white_check_mark: Gauge Random Number](https://github.com/minchjung/processing3.0/commit/ebace53341075796a0de1eeaedff14f743d48062)  
 * [:x: Gauge Serial Parsing_port101](https://github.com/minchjung/processing3.0/commit/473a128a60ee23fb21d83480c4e9e58611c1a5ff)  
-* [:point_right: Gauge Serial Parsing_port02](https://github.com/minchjung/processing3.0/commit/1834204652348db8372770da4412a3166e1a212f)  
-* [:white_check_mark: All mixed layout](https://github.com/minchjung/processing3.0/commit/6a535f6693d6be9fb1b67593bec32c6421030e0e)  
-[**Gauge reference01**](https://github.com/L3Dnam/Professional-Gauges-with-Processing) 
-[**Gauge reference02**](https://thenewstack.io/off-the-shelf-hacker-use-processings-meter-library-to-build-gauges/)  
-[**Gauge reference03 diff**](https://github.com/BillKujawa/meter)    
+* [:point_right: Gauge Serial Parsing_port02](https://github.com/minchjung/processing3.0/commit/1834204652348db8372770da4412a3166e1a212f)    
+* [:white_check_mark: All mixed layout](https://github.com/minchjung/processing3.0/commit/6a535f6693d6be9fb1b67593bec32c6421030e0e)     
+[**Gauge reference01**](https://github.com/L3Dnam/Professional-Gauges-with-Processing)   
+[**Gauge reference02**](https://thenewstack.io/off-the-shelf-hacker-use-processings-meter-library-to-build-gauges/)    
+[**Gauge reference03 diff**](https://github.com/BillKujawa/meter)      
  
 ----  
 
