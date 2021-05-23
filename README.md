@@ -9,20 +9,25 @@
 #### 🟣 Working On  [Not Done yet] 
 * [:balloon: Pixel lerpColor lerInterpolation 16x16 to 240x240](https://github.com/minchjung/processing3.0/commit/01221a6c4aad188f886cc5b4699cd3ed9a4c4985)  
 * [:balloon: Pixel lerpColor lerInterpolation 16x16 to 320x320](https://github.com/minchjung/processing3.0/commit/10891942edd978d1e93fdf007e40d6474c53ba1a)    
-* [:point_right: Pixel lerpColor lerInterpolation 16x16 to 400x400](https://github.com/minchjung/processing3.0/commit/c26e4a2f49e489497fdf838975d4bacb418cc3cc)  
+* [:point_right: Pixel lerpColor lerInterpolation 16x16 to 400x400](https://github.com/minchjung/processing3.0/commit/c26e4a2f49e489497fdf838975d4bacb418cc3cc)   
+<br/>  
+
+----
 * [:balloon: Grid Blue with Random Input 00](https://github.com/minchjung/processing3.0/commit/4062ccdd8389fe838efb2d272532538fa0192eaa)  
 * [:balloon: Grid Blue with Serial Parsing01 **input start 체크 !!**](https://github.com/minchjung/processing3.0/commit/cdbf3628de6a8c12950a15dee3f85843e55f9955)  
 * [:balloon: Grid Blue with Serial Parsing02](https://github.com/minchjung/processing3.0/commit/79d615e1bf78aa0f8a8141ca9ec017aff3ac6e23)    
 * [:balloon: Grid Blue with Serial Parsing03](https://github.com/minchjung/processing3.0/commit/bda92501fc080e658dc1f2e9951688c21d3374e3)  
-* [:balloon: Grid Blue with Serial Parsing04]()    
+<br/>  
+----
 
-<br>
 
-[**사용 라이브러리**](#processing30-library)     
-
+----
 [**Gauge reference code01**](https://github.com/L3Dnam/Professional-Gauges-with-Processing) 
 [**Gauge reference code02**](https://thenewstack.io/off-the-shelf-hacker-use-processings-meter-library-to-build-gauges/)  
 [**Gauge on image reference**](https://github.com/BillKujawa/meter)    
+
+[**사용 라이브러리**](#processing30-library)     
+
   
 ----
 ## 📕 Study - Interpolation 
