@@ -20,8 +20,8 @@
 <br/> 
 
 ----  
-[Gauge Random Number]()  
-[Gauge Serial Parsing_port101]()  
+[Gauge Random Number](https://github.com/minchjung/processing3.0/commit/ebace53341075796a0de1eeaedff14f743d48062)  
+[Gauge Serial Parsing_port101](https://github.com/minchjung/processing3.0/commit/473a128a60ee23fb21d83480c4e9e58611c1a5ff)  
 
 
 
