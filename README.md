@@ -27,9 +27,9 @@
 ** [**Meter reference**](https://thenewstack.io/off-the-shelf-hacker-use-processings-meter-library-to-build-gauges/)    
 ** [**Gauge different one**](https://github.com/BillKujawa/meter)  
 
-#### 🟣 [Display All]       
-* [:white_check_mark: Display All layout](https://github.com/minchjung/processing3.0/commit/6a535f6693d6be9fb1b67593bec32c6421030e0e)  
-* [:white_check_mark: Display All Random Input](https://github.com/minchjung/processing3.0/commit/fcad487824c4f115f8d37043640a99223c0192fa)  
+#### 🟣 [MultiDisplay]       
+* [:white_check_mark: Multiple Display layout](https://github.com/minchjung/processing3.0/commit/6a535f6693d6be9fb1b67593bec32c6421030e0e)  
+* [:white_check_mark: Multiple Display Random Input](https://github.com/minchjung/processing3.0/commit/fcad487824c4f115f8d37043640a99223c0192fa)  
 ----  
 [**사용 라이브러리**](#processing30-library)      
 
