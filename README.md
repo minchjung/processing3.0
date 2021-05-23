@@ -21,15 +21,15 @@
 
 * [:white_check_mark: Gauge Random Input](https://githu:heavy_exclamation_mark:b.com/minchjung/processing3.0/commit/ebace53341075796a0de1eeaedff14f743d48062)  
 * [:x: Gauge Serial Parsing_port01](https://github.com/minchjung/processing3.0/commit/473a128a60ee23fb21d83480c4e9e58611c1a5ff)  
-* [:point_right: Gauge Serial Parsing_port02 🔶🔶5/24 Update](https://github.com/minchjung/processing3.0/commit/1834204652348db8372770da4412a3166e1a212f)    
+* [:point_right: Gauge Serial Parsing_port02 🔶🔶5/24 Update about Parsing](https://github.com/minchjung/processing3.0/commit/1834204652348db8372770da4412a3166e1a212f)    
 * __METER Reference__     
 ** [**Meter Library**](https://github.com/L3Dnam/Professional-Gauges-with-Processing)  
 ** [**Meter reference**](https://thenewstack.io/off-the-shelf-hacker-use-processings-meter-library-to-build-gauges/)    
 ** [**Gauge different one**](https://github.com/BillKujawa/meter)  
 
-#### 🟣 [MultiDisplay] 🔶🔶5/24 Update      
+#### 🟣 [MultiDisplay]      
 * [:white_check_mark: Multiple Display layout](https://github.com/minchjung/processing3.0/commit/6a535f6693d6be9fb1b67593bec32c6421030e0e)  
-* [:white_check_mark: Multiple Display Random Input](https://github.com/minchjung/processing3.0/commit/fcad487824c4f115f8d37043640a99223c0192fa)  
+* [:white_check_mark: Multiple Display Random Input 🔶🔶5/24 Update](https://github.com/minchjung/processing3.0/commit/fcad487824c4f115f8d37043640a99223c0192fa)  
 ----  
 [**사용 라이브러리**](#processing30-library)      
 
