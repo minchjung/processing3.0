@@ -19,9 +19,9 @@
 * [:balloon: Grid Blue with Serial Parsing03](https://github.com/minchjung/processing3.0/commit/bda92501fc080e658dc1f2e9951688c21d3374e3)  
 <br/> 
 
-* [Gauge Random Number](https://github.com/minchjung/processing3.0/commit/ebace53341075796a0de1eeaedff14f743d48062)  
-* [Gauge Serial Parsing_port101](https://github.com/minchjung/processing3.0/commit/473a128a60ee23fb21d83480c4e9e58611c1a5ff)  
-* [All mixed layout]()  
+* [:white_check_mark: Gauge Random Number](https://github.com/minchjung/processing3.0/commit/ebace53341075796a0de1eeaedff14f743d48062)  
+* [:x: Gauge Serial Parsing_port101](https://github.com/minchjung/processing3.0/commit/473a128a60ee23fb21d83480c4e9e58611c1a5ff)  
+* [:white_check_mark: All mixed layout](https://github.com/minchjung/processing3.0/commit/6a535f6693d6be9fb1b67593bec32c6421030e0e)  
 
 
 ----  
