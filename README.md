@@ -15,13 +15,13 @@
 * [:white_check_mark: Grid Blue with Random Input](https://github.com/minchjung/processing3.0/commit/4062ccdd8389fe838efb2d272532538fa0192eaa)  
 * [:white_check_mark: Grid Blue with Serial Parsing01](https://github.com/minchjung/processing3.0/commit/cdbf3628de6a8c12950a15dee3f85843e55f9955)  
 * [:white_check_mark: Grid Blue with Serial Parsing02](https://github.com/minchjung/processing3.0/commit/79d615e1bf78aa0f8a8141ca9ec017aff3ac6e23)    
-* [:x: Grid Blue with Serial Parsing03 👈👈 5/24 Update here](https://github.com/minchjung/processing3.0/commit/bda92501fc080e658dc1f2e9951688c21d3374e3)  
+* [:x: Grid Blue with Serial Parsing03](https://github.com/minchjung/processing3.0/commit/bda92501fc080e658dc1f2e9951688c21d3374e3)  
 
 #### 🟣 [Gauge]   Serial Parsing Check :interrobang:  
 
 * [:white_check_mark: Gauge Random Input](https://githu:heavy_exclamation_mark:b.com/minchjung/processing3.0/commit/ebace53341075796a0de1eeaedff14f743d48062)  
 * [:x: Gauge Serial Parsing_port01](https://github.com/minchjung/processing3.0/commit/473a128a60ee23fb21d83480c4e9e58611c1a5ff)  
-* [:point_right: Gauge Serial Parsing_port02](https://github.com/minchjung/processing3.0/commit/1834204652348db8372770da4412a3166e1a212f)    
+* [:point_right: Gauge Serial Parsing_port02 👈👈 5/24 Update here](https://github.com/minchjung/processing3.0/commit/1834204652348db8372770da4412a3166e1a212f)    
 * __METER Reference__     
 ** [**Meter Library**](https://github.com/L3Dnam/Professional-Gauges-with-Processing)  
 ** [**Meter reference**](https://thenewstack.io/off-the-shelf-hacker-use-processings-meter-library-to-build-gauges/)    
