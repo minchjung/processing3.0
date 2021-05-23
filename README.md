@@ -19,18 +19,18 @@
 * [:balloon: Grid Blue with Serial Parsing03](https://github.com/minchjung/processing3.0/commit/bda92501fc080e658dc1f2e9951688c21d3374e3)  
 <br/> 
 
+* [Gauge Random Number](https://github.com/minchjung/processing3.0/commit/ebace53341075796a0de1eeaedff14f743d48062)  
+* [Gauge Serial Parsing_port101](https://github.com/minchjung/processing3.0/commit/473a128a60ee23fb21d83480c4e9e58611c1a5ff)  
+* [All mixed layout]()  
+
+
 ----  
-[Gauge Random Number](https://github.com/minchjung/processing3.0/commit/ebace53341075796a0de1eeaedff14f743d48062)  
-[Gauge Serial Parsing_port101](https://github.com/minchjung/processing3.0/commit/473a128a60ee23fb21d83480c4e9e58611c1a5ff)  
 
-
-
-----
+[**사용 라이브러리**](#processing30-library)      
 [**Gauge reference01**](https://github.com/L3Dnam/Professional-Gauges-with-Processing) 
 [**Gauge reference02**](https://thenewstack.io/off-the-shelf-hacker-use-processings-meter-library-to-build-gauges/)  
 [**Gauge reference03 diff**](https://github.com/BillKujawa/meter)    
-
-[**사용 라이브러리**](#processing30-library)     
+ 
 
   
 ----
