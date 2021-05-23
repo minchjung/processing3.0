@@ -6,32 +6,31 @@
 * [:white_check_mark: 04.HSB Grid Basic](https://github.com/minchjung/processing3.0/commit/88a08d6d1a308f5b0ecf8a9aaf70f3be180f5891)   
 * [:white_check_mark: 05.HSB Grid Blur](https://github.com/minchjung/processing3.0/commit/9ac638407579eb7f734a2da2a06462141cb32af4)  
 * [:x: HSB Grid MouseEvent](https://github.com/minchjung/processing3.0/commit/a258af83b770b330eec3ff04bf2abfa14688b81b)  
-#### 🟣 Working On  [Not Done yet] 
+#### 🟣 [Interpolation]    FPS=0.25 ->100배
 * [:balloon: Pixel lerpColor lerInterpolation 16x16 to 240x240](https://github.com/minchjung/processing3.0/commit/01221a6c4aad188f886cc5b4699cd3ed9a4c4985)  
 * [:balloon: Pixel lerpColor lerInterpolation 16x16 to 320x320](https://github.com/minchjung/processing3.0/commit/10891942edd978d1e93fdf007e40d6474c53ba1a)    
-* [:point_right: Pixel lerpColor lerInterpolation 16x16 to 400x400](https://github.com/minchjung/processing3.0/commit/c26e4a2f49e489497fdf838975d4bacb418cc3cc)   
-<br/>  
+* [:point_right: Pixel lerpColor lerInterpolation 16x16 to 400x400](https://github.com/minchjung/processing3.0/commit/c26e4a2f49e489497fdf838975d4bacb418cc3cc)    
 
-----
+#### 🟣 [Grid-Blue]  Input & Array-index Check, Color, Serial Parsing Check     
 * [:white_check_mark: Grid Blue with Random Input 00](https://github.com/minchjung/processing3.0/commit/4062ccdd8389fe838efb2d272532538fa0192eaa)  
-* [:x: Grid Blue with Serial Parsing01 **Index, parsing**](https://github.com/minchjung/processing3.0/commit/cdbf3628de6a8c12950a15dee3f85843e55f9955)  
-* [:x: Grid Blue with Serial Parsing02 **Index, parsing**](https://github.com/minchjung/processing3.0/commit/79d615e1bf78aa0f8a8141ca9ec017aff3ac6e23)    
-* [:x: Grid Blue with Serial Parsing03 **Index*, parsing**](https://github.com/minchjung/processing3.0/commit/bda92501fc080e658dc1f2e9951688c21d3374e3)  
-<br/> 
+* [:x: Grid Blue with Serial Parsing01](https://github.com/minchjung/processing3.0/commit/cdbf3628de6a8c12950a15dee3f85843e55f9955)  
+* [:x: Grid Blue with Serial Parsing02](https://github.com/minchjung/processing3.0/commit/79d615e1bf78aa0f8a8141ca9ec017aff3ac6e23)    
+* [:x: Grid Blue with Serial Parsing03](https://github.com/minchjung/processing3.0/commit/bda92501fc080e658dc1f2e9951688c21d3374e3)  
+
+#### 🟣 [Gauge]   Serial Parsing Check  
 
 * [:white_check_mark: Gauge Random Number](https://github.com/minchjung/processing3.0/commit/ebace53341075796a0de1eeaedff14f743d48062)  
-* [:x: Gauge Serial Parsing_port101  **Index, parsing**](https://github.com/minchjung/processing3.0/commit/473a128a60ee23fb21d83480c4e9e58611c1a5ff)  
+* [:x: Gauge Serial Parsing_port101](https://github.com/minchjung/processing3.0/commit/473a128a60ee23fb21d83480c4e9e58611c1a5ff)  
 * [:point_right: Gauge Serial Parsing_port02](https://github.com/minchjung/processing3.0/commit/1834204652348db8372770da4412a3166e1a212f)  
 * [:white_check_mark: All mixed layout](https://github.com/minchjung/processing3.0/commit/6a535f6693d6be9fb1b67593bec32c6421030e0e)  
-
-
-----  
-
-[**사용 라이브러리**](#processing30-library)      
 [**Gauge reference01**](https://github.com/L3Dnam/Professional-Gauges-with-Processing) 
 [**Gauge reference02**](https://thenewstack.io/off-the-shelf-hacker-use-processings-meter-library-to-build-gauges/)  
 [**Gauge reference03 diff**](https://github.com/BillKujawa/meter)    
  
+----  
+
+[**사용 라이브러리**](#processing30-library)      
+
 
   
 ----
