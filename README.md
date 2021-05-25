@@ -247,7 +247,7 @@ void rxRefresh() {
     }
     else if(got_zero){ //버퍼의 next byte 값이 end marker가 아니고 got_zero=True시 
       for(int i = 0; i < unsigned_force; i ++){ //int로 변환한 버퍼의 해당값(unsigned_forced)만큼 루프를 돌린다
-        updatePixel(xcount, ycount, 0);// updatePixel처리 (주의 processing library아님, updatePixels)
+        updatePixel(xcount, ycount, 0);// updatePixel처리 해당 포지션을 0으로 세팅하고 다음 x,y position 값을 세팅해준다 
         xcount ++; //x값 1증가 
         if(xcount >= COLS){//x 값이 가로 길이에 이르면 
           xcount = 0; // x 값 0 
@@ -258,9 +258,9 @@ void rxRefresh() {
       got_zero = false; // 버퍼의 값만큼 for룹을 돌고 나오면 got_zero=false를 바꾼다 
     }// 버퍼의 들어온값은 (end Siglnal 아니면) x,y position으로 매번 할당된다 
     else if(got_byte == 0) // 버퍼값이 0 이면 
-      got_zero = true; // 다시 true로 바꾼다 <--이렇게 되면 버퍼의 값이 0일때는 위 for loop을 그냥 빠져나게디되면서 다시 got_zero=false가 된다  
-    else //버퍼의값이 endsignal 아니고 그값이 할당되고 나와서 got_zero=false이면  
-    {
+      got_zero = true; // 다시 true로 바꾼다 <--이렇게 되면 버퍼의 값이 0일때는 위 처리를하고 0이 아닐때만 아래로 내려온다 . 
+    else //버퍼의값이 endsignal 아니고 그값이 0 이 아니면   
+    { //그 값과 위치를 함수로 넘겨서 할당한다 
       updatePixel(xcount, ycount, unsigned_force);
       xcount ++;
       if(xcount >= COLS){
@@ -287,7 +287,7 @@ void updatePixel(int xpos, int ypos, int force){
       xpos = (COLS - 1) - xpos; //y축 기준으로 x좌표 반전 
     if(INVERT_X_AXIS) //x축으로 뒤집을 수 있으면 
       ypos = (COLS - 1) - ypos;// x축 기준으로 y좌표 반전 
-    grid[ypos][xpos].display(force);
+    grid[ypos][xpos].display(force); // 해당 grid에 display
   }
 }
 /**********************************************************************************************************
@@ -308,13 +308,13 @@ class Cell {
     h = tempH;
   } 
   void display(int newforce) {
-    if(newforce < min_force_thresh) newforce = 0;
-    else newforce *= SCALE_READING;
-    if(newforce != current_force){
+    if(newforce < min_force_thresh) newforce = 0; // 해당 위치에 넘어온 byte=>int 값이 역치값(1)보다 작으면 그냥 0처리 
+    else newforce *= SCALE_READING; 그게 아니면 증폭값?Scale_Reading=2으로 매번 2배로 증폭  
+    if(newforce != current_force){ // 새로 들어온값이 현재값과 다르면 
       noStroke();
-      fill(0, newforce, 0);
+      fill(0, newforce, 0); // 그때 그림 그리고 
       rect(x, y, w, h); 
-      current_force = newforce;
+      current_force = newforce; // 현재값으로 바꿔준다 
     }
   }
 }
