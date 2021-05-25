@@ -37,26 +37,20 @@
 * [:balloon: Grid blue Index matching 03 🔶🔶5/25](https://github.com/minchjung/processing3.0/commit/b9df2222b3c4c5a6e57315e8677a1753d99ef52e)    
 * __2D Transformation && OPEN GL__  
 ** [2D Transformation](https://processing.org/tutorials/transform2d/)  
-** [Open GL ](https://github.com/processing/processing/blob/e107f6dfb8e322a5edcc6ed751cb1ef952619fb8/build/shared/revisions.txt)  
+** [Open GL ](https://github.com/processing/processing/blob/e107f6dfb8e322a5edcc6ed751cb1ef952619fb8/build/shared/revisions.txt)   
 
-----  
 [**사용 라이브러리**](#processing30-library)      
+<br/>  
 
-
-  
-----
 ## 📕 Study - Interpolation 
-
 [**원본 코드**](https://forum.processing.org/two/discussion/26588/how-to-simplify-this-code-heat-map)  
 [**STUDY 주석**](https://github.com/minchjung/processing3.0/commit/98749ab49862dbc37346b00bc82244c1e05cc050)  
 
-## 📕 Study - Bytes Operation && Serial Parsing   🔶🔶5/25
-
+## 📕 Study - Bytes Operation && Serial Parsing   🔶🔶5/25  
 [**원본 코드**](https://www.sensitronics.com/tutorials/fsr-matrix-array/page8.php)   
-[**STUDY 주석**](https://github.com/minchjung/processing3.0/commit/98749ab49862dbc37346b00bc82244c1e05cc050)  
-----
+[**STUDY 주석**](https://github.com/minchjung/processing3.0/commit/98749ab49862dbc37346b00bc82244c1e05cc050)   
+<br/> 
 
-  
 ## Processing3.0 Library
 #### :link:  Function && Systemic variables  
 [01. colorMode()](https://processing.org/reference/colorMode_.html)  
@@ -90,8 +84,6 @@
 [:chestnut: HashMap: import.java.util.*](https://processing.org/reference/HashMap.html)  
 [:chestnut: Queue: import.java.util.*](https://forum.processing.org/two/discussion/23900/fifo-and-lifo)  
 [:chestnut: Deque import.java.util.*](https://forum.processing.org/two/discussion/23900/fifo-and-lifo)  
-
-<br>  
 
 #### 🔗 Processing: Dr.Shiffman Learning Process     
 * [ Youtube](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)  
