@@ -16,6 +16,10 @@
 * [:white_check_mark: Grid Blue with Serial Parsing01](https://github.com/minchjung/processing3.0/commit/cdbf3628de6a8c12950a15dee3f85843e55f9955)  
 * [:white_check_mark: Grid Blue with Serial Parsing02](https://github.com/minchjung/processing3.0/commit/79d615e1bf78aa0f8a8141ca9ec017aff3ac6e23)    
 * [:x: Grid Blue with Serial Parsing03](https://github.com/minchjung/processing3.0/commit/bda92501fc080e658dc1f2e9951688c21d3374e3)  
+* * [~~:white_check_mark: IndexChecking_temporal🔶🔶5/25~~](https://github.com/minchjung/processing3.0/commit/452e29d405e0d75bf6418eba16ff23773aade6e6)
+* [:white_check_mark: IndexChecking_02🔶🔶5/25](https://github.com/minchjung/processing3.0/commit/0f10fcf92f51f93c3da9af628ea0f8f928a2875e)  
+* [:balloon: Sitronics 🔶🔶5/25](https://github.com/minchjung/processing3.0/commit/846b601b57906bcac59a7ee833bdcda8afcb9197)  
+* [:balloon: Grid blue Index matching 03 🔶🔶5/25](https://github.com/minchjung/processing3.0/commit/b9df2222b3c4c5a6e57315e8677a1753d99ef52e)  
 
 #### 🟣 [Gauge]   Serial Parsing Check :interrobang:  
 
@@ -30,11 +34,9 @@
 #### 🟣 [MultiDisplay]      
 * [:white_check_mark: Multiple Display layout](https://github.com/minchjung/processing3.0/commit/6a535f6693d6be9fb1b67593bec32c6421030e0e)  
 * [:white_check_mark: Multiple Display Random Input 5/24 Issue about Memory](https://github.com/minchjung/processing3.0/commit/fcad487824c4f115f8d37043640a99223c0192fa)    
-* [:x: Multiple Display Serial Data 🔶🔶5/25 Update-Issue:bar 회전,Serial-data & Board array 위치, Parsing Check](https://github.com/minchjung/processing3.0/commit/d66de55d7f21ebbff9137a418a2aa0b65938a6e3)    
-* [~~:white_check_mark: IndexChecking_temporal🔶🔶5/25~~](https://github.com/minchjung/processing3.0/commit/452e29d405e0d75bf6418eba16ff23773aade6e6)
-* [:white_check_mark: IndexChecking_02🔶🔶5/25](https://github.com/minchjung/processing3.0/commit/0f10fcf92f51f93c3da9af628ea0f8f928a2875e)  
-* [:balloon: Sitronics 🔶🔶5/25](https://github.com/minchjung/processing3.0/commit/846b601b57906bcac59a7ee833bdcda8afcb9197)  
-* [:balloon: Grid blue Index matching 03 🔶🔶5/25](https://github.com/minchjung/processing3.0/commit/b9df2222b3c4c5a6e57315e8677a1753d99ef52e)    
+* [:x: Multiple Display Serial Data ~~🔶🔶5/25 Update-Issue:bar 회전,Serial-data & Board array 위치, ~~Parsing Check](https://github.com/minchjung/processing3.0/commit/d66de55d7f21ebbff9137a418a2aa0b65938a6e3)    
+* [:balloon: Multiple Display Serial Data with all04 🔶🔶5/25 ]()  
+
 * __2D Transformation && OPEN GL__  
 ** [2D Transformation](https://processing.org/tutorials/transform2d/)  
 ** [Open GL ](https://github.com/processing/processing/blob/e107f6dfb8e322a5edcc6ed751cb1ef952619fb8/build/shared/revisions.txt)   
