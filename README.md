@@ -33,8 +33,8 @@
 * [:x: Multiple Display Serial Data 🔶🔶5/25 Update-Issue:bar 회전,Serial-data & Board array 위치, Parsing Check](https://github.com/minchjung/processing3.0/commit/d66de55d7f21ebbff9137a418a2aa0b65938a6e3)    
 * [~~:white_check_mark: IndexChecking_temporal🔶🔶5/25~~](https://github.com/minchjung/processing3.0/commit/452e29d405e0d75bf6418eba16ff23773aade6e6)
 * [:white_check_mark: IndexChecking_02🔶🔶5/25](https://github.com/minchjung/processing3.0/commit/0f10fcf92f51f93c3da9af628ea0f8f928a2875e)  
-* [:balloon: Sitronics](https://github.com/minchjung/processing3.0/commit/846b601b57906bcac59a7ee833bdcda8afcb9197)  
-* [:balloon: Grid blue Index matching 03]()  
+* [:balloon: Sitronics 🔶🔶5/25](https://github.com/minchjung/processing3.0/commit/846b601b57906bcac59a7ee833bdcda8afcb9197)  
+* [:balloon: Grid blue Index matching 03 🔶🔶5/25](https://github.com/minchjung/processing3.0/commit/b9df2222b3c4c5a6e57315e8677a1753d99ef52e)    
 * __2D Transformation && OPEN GL__  
 ** [2D Transformation](https://processing.org/tutorials/transform2d/)  
 ** [Open GL ](https://github.com/processing/processing/blob/e107f6dfb8e322a5edcc6ed751cb1ef952619fb8/build/shared/revisions.txt)  
@@ -189,7 +189,7 @@ void applyColor() {  // Generate the heat map
 ```  
 
 ----
-## 📕 Study - Bytes Operation && Serial Parsing   
+## 📕 Study - Bytes Operation && Serial Parsing   🔶🔶5/25
 
 [**원본 코드**](https://www.sensitronics.com/tutorials/fsr-matrix-array/page8.php)   
 ```java
