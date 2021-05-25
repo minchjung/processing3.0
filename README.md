@@ -31,8 +31,8 @@
 * [:white_check_mark: Multiple Display layout](https://github.com/minchjung/processing3.0/commit/6a535f6693d6be9fb1b67593bec32c6421030e0e)  
 * [:white_check_mark: Multiple Display Random Input 5/24 Issue about Memory](https://github.com/minchjung/processing3.0/commit/fcad487824c4f115f8d37043640a99223c0192fa)    
 * [:x: Multiple Display Serial Data 🔶🔶5/25 Update-Issue:bar 회전,Serial-data & Board array 위치, Parsing Check](https://github.com/minchjung/processing3.0/commit/d66de55d7f21ebbff9137a418a2aa0b65938a6e3)    
-* [IndexChecking_temporal](https://github.com/minchjung/processing3.0/commit/452e29d405e0d75bf6418eba16ff23773aade6e6)
-* [IndexChecking_02](https://github.com/minchjung/processing3.0/commit/0f10fcf92f51f93c3da9af628ea0f8f928a2875e)  
+* [~~:white_check_mark: IndexChecking_temporal🔶🔶5/25~~](https://github.com/minchjung/processing3.0/commit/452e29d405e0d75bf6418eba16ff23773aade6e6)
+* [:white_check_mark: IndexChecking_02🔶🔶5/25](https://github.com/minchjung/processing3.0/commit/0f10fcf92f51f93c3da9af628ea0f8f928a2875e)  
 * __2D Transformation && OPEN GL__  
 ** [2D Transformation](https://processing.org/tutorials/transform2d/)  
 ** [Open GL ](https://github.com/processing/processing/blob/e107f6dfb8e322a5edcc6ed751cb1ef952619fb8/build/shared/revisions.txt)  
