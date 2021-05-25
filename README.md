@@ -33,7 +33,7 @@
 #### 🟣 [MultiDisplay]      
 * [:white_check_mark: Multiple Display layout](https://github.com/minchjung/processing3.0/commit/6a535f6693d6be9fb1b67593bec32c6421030e0e)  
 * [:white_check_mark: Multiple Display Random Input 5/24 Issue about Memory](https://github.com/minchjung/processing3.0/commit/fcad487824c4f115f8d37043640a99223c0192fa)    
-* [:x: Multiple Display Serial Data ~~🔶🔶5/25 Update-Issue:bar 회전,Serial-data & Board array 위치, ~~Parsing Check](https://github.com/minchjung/processing3.0/commit/d66de55d7f21ebbff9137a418a2aa0b65938a6e3)    
+* [:x: Multiple Display Serial Data ~~🔶🔶5/25 Update-Issue:bar 회전~~,~~Serial-data & Board array 위치, ~~Parsing Check](https://github.com/minchjung/processing3.0/commit/d66de55d7f21ebbff9137a418a2aa0b65938a6e3)    
 * [:balloon: Multiple Display Serial Data with all04 🔶🔶5/25 ](https://github.com/minchjung/processing3.0/commit/571b36968dd9b7f08bafb403942223f8b9c4550c)    
 
 * __2D Transformation && OPEN GL__  
