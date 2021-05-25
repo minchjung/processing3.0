@@ -254,7 +254,7 @@ void rxRefresh() {
         if(xcount >= COLS){//x 값이 가로 길이에 이르면 
           xcount = 0; // x 값 0 
           ycount ++; // y값 1증가 = 세로한칸 아래
-          if(ycount >= ROWS) ycount = ROWS - 1; // y값이 세로 길이에 이르면 0부터 시작한 index길이를 맞춰준다 
+          if(ycount >= ROWS) ycount = ROWS - 1; // y값이 증가후 세로 길이에 이르면 0부터 시작한 index길이로 맞춰준다 
         }
       }
       got_zero = false; // 버퍼의 값만큼 for룹을 돌고 나오면 got_zero=false를 바꾼다 
@@ -273,19 +273,19 @@ void rxRefresh() {
       }
     }
   }
-}
+}// 음?,,,
 /**********************************************************************************************************
 * updatePixel()
 **********************************************************************************************************/
 
 void updatePixel(int xpos, int ypos, int force){
-  if(SWAP_AXES){ //x,y position 바꿔야되면 
+  if(SWAP_AXES){ //x,y position 바꿔야되면 <-- 얘 바꿔주는 값이 없음 ture하면 그림 안그려져서 false로 고쳐줌 
     int temp = xpos;
     xpos = ypos;
     ypos = temp; //바꾼다 
   }
   if((xpos < ROWS) && (ypos < COLS)){ //x,y  범위내에 만족하고 
-    if(INVERT_Y_AXIS) //y축으로 뒤집을 수 있으면  
+    if(INVERT_Y_AXIS) //y축으로 뒤집을 수 있으면     <--얘들도 바꾸는 조건이 없음.. 
       xpos = (COLS - 1) - xpos; //y축 기준으로 x좌표 반전 
     if(INVERT_X_AXIS) //x축으로 뒤집을 수 있으면 
       ypos = (COLS - 1) - ypos;// x축 기준으로 y좌표 반전 
