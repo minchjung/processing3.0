@@ -54,13 +54,13 @@
 
 ## Processing3.0 Library
 #### :link:  Function && Systemic variables  
-[01. colorMode()](https://processing.org/reference/colorMode_.html)  
+[01. colorMode() 🎯](https://processing.org/reference/colorMode_.html)  
 [02. constrain()](https://processing.org/reference/constrain_.html)  
 [03. loadPixels()](https://processing.org/reference/loadPixels_.html)  
 [04. pixels[]](https://processing.org/reference/pixels.html)  
 [05. pushStyle()](https://www.processing.org/reference/pushStyle_.html)  
 [06. pushMatrix()](https://processing.org/reference/pushMatrix_.html)    
-[07. translate()](https://processing.org/reference/translate_.html)    
+[07. translate() 🎯](https://processing.org/reference/translate_.html)    
 [08. PVector()](https://processing.org/reference/PVector.html)  
 [09. point[]](https://processing.org/reference/point_.html)  
 [10. text()](https://processing.org/reference/text_.html)    
