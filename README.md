@@ -25,10 +25,12 @@
 * [:white_check_mark: Gauge Random Input](https://githu:heavy_exclamation_mark:b.com/minchjung/processing3.0/commit/ebace53341075796a0de1eeaedff14f743d48062)  
 * [:white_check_mark: Gauge Serial Parsing_port01 :interrobang:](https://github.com/minchjung/processing3.0/commit/473a128a60ee23fb21d83480c4e9e58611c1a5ff)  
 * [:point_right: Gauge Serial Parsing_port02 :interrobang:  5/24 Mention about Serial Parsing](https://github.com/minchjung/processing3.0/commit/1834204652348db8372770da4412a3166e1a212f)    
-* __METER Reference__     
+* __METER or Gauge Reference__     
 ** [**Meter Library**](https://github.com/L3Dnam/Professional-Gauges-with-Processing)  
 ** [**Meter reference**](https://thenewstack.io/off-the-shelf-hacker-use-processings-meter-library-to-build-gauges/)    
 ** [**Gauge different one**](https://github.com/BillKujawa/meter)  
+** [**ControlP5_Knob** 🎯](https://awesomeopensource.com/project/sojamo/controlp5#controllers)  
+
 
 #### 🟣 [MultiDisplay]      
 * [:white_check_mark: Layout](https://github.com/minchjung/processing3.0/commit/6a535f6693d6be9fb1b67593bec32c6421030e0e)  
