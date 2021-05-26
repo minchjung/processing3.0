@@ -37,17 +37,18 @@
 * [:white_check_mark: Random Input 5/24 Issue about Memory](https://github.com/minchjung/processing3.0/commit/fcad487824c4f115f8d37043640a99223c0192fa)    
 * [:x: Serial Input01 5/25 Issue : ~~bar 회전~~,~~Serial-data & Board array 위치~~ ,  Parsing Check](https://github.com/minchjung/processing3.0/commit/d66de55d7f21ebbff9137a418a2aa0b65938a6e3)    
 * [✅: Serial Input02 5/25 ](https://github.com/minchjung/processing3.0/commit/571b36968dd9b7f08bafb403942223f8b9c4550c)  
-* [✅: Serial Input03 Set global variable ♦️ 5/26](https://github.com/minchjung/processing3.0/commit/3804a5d697be3829adddd344ae680be8a8f7a676)   
-* [✅: Circle-meter w/Serial-Input ♦️ 5/26](https://github.com/minchjung/processing3.0/commit/662bbc25b0391d42e2d0eee5192aecf0a0d34e99)    
-* [✅: ControlP5.Knob01 ♦️ 5/26](https://github.com/minchjung/processing3.0/commit/fafdac4ff132e402dba00fedc9ed177dc2bbb502)    
+* [✅: Serial Input03 Set global variable](https://github.com/minchjung/processing3.0/commit/3804a5d697be3829adddd344ae680be8a8f7a676)   
+* [✅: Circle-meter w/Serial-Input](https://github.com/minchjung/processing3.0/commit/662bbc25b0391d42e2d0eee5192aecf0a0d34e99)    
+   
 * [:apple: __Original Code_Circle__](https://github.com/minchjung/processing3.0/commit/5f6daa1840eb48475d37ed77693a36dd85044a7b)  
 * [:apple: __Original Code CP5.ex__](https://github.com/minchjung/processing3.0/commit/be80c95e5c6214d8937085c14cb74d8f7fea5c2e)      
 
 #### 🟣 [CP5 - MultiDisplay]
 * [:x: CP5 Bar-Slider01 ⬅️ Issue using ArrayList](https://github.com/minchjung/processing3.0/commit/a883cce7293f9e10449b8b0a8f1d82d3e2f175ef)
-* [✅ CP5 Bar-Slider02 ](https://github.com/minchjung/processing3.0/commit/e0403eba5106cc9e3a1d3e9e24a6c701096ff983)  
-* [✅ CP5 Knob Grid-Matrix Multi-Slider](https://github.com/minchjung/processing3.0/commit/643b0f6f0a06065b676697f5f30fceca88b6b5e1)  
-* 
+* [✅ CP5 Bar-Slider02](https://github.com/minchjung/processing3.0/commit/e0403eba5106cc9e3a1d3e9e24a6c701096ff983) 
+* [✅ CP5 Knob01](https://github.com/minchjung/processing3.0/commit/fafdac4ff132e402dba00fedc9ed177dc2bbb502)  
+* [✅ CP5 Knob02 + Grid-Matrix + Multi-Slider](https://github.com/minchjung/processing3.0/commit/643b0f6f0a06065b676697f5f30fceca88b6b5e1)  
+
 * __2D Transformation && OPEN GL__  
 ** [2D Transformation](https://processing.org/tutorials/transform2d/)  
 ** [Open GL ](https://github.com/processing/processing/blob/e107f6dfb8e322a5edcc6ed751cb1ef952619fb8/build/shared/revisions.txt)
