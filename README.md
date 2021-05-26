@@ -31,7 +31,6 @@
 ** [**Gauge different one**](https://github.com/BillKujawa/meter)  
 ** [**ControlP5_Knob** 🎯](https://awesomeopensource.com/project/sojamo/controlp5#controllers)  
 
-
 #### 🟣 [MultiDisplay]      
 * [:white_check_mark: Layout](https://github.com/minchjung/processing3.0/commit/6a535f6693d6be9fb1b67593bec32c6421030e0e)  
 * [:white_check_mark: Random Input 5/24 Issue about Memory](https://github.com/minchjung/processing3.0/commit/fcad487824c4f115f8d37043640a99223c0192fa)    
