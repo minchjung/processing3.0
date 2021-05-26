@@ -47,10 +47,10 @@
 * [✅ CP5 Knob01](https://github.com/minchjung/processing3.0/commit/fafdac4ff132e402dba00fedc9ed177dc2bbb502)  
 * [✅ CP5 Knob02 + Grid-Matrix + Multi-Slider](https://github.com/minchjung/processing3.0/commit/643b0f6f0a06065b676697f5f30fceca88b6b5e1)  
 * __CP5 library link__  
-*** [:apple: __CP5 Link01__](https://awesomeopensource.com/project/sojamo/controlp5#events)  
-*** [:apple: __CP5 Link02__](http://www.sojamo.de/libraries/controlP5/#examples)  
-*** [:apple: __CP5 Link03__](https://github.com/sojamo/controlp5/issues?page=3&q=is%3Aissue+is%3Aopen)   
-*** [:apple: __CP5 Link04__](https://github.com/sojamo/controlp5#help)  
+*** [__CP5 Link01__](https://awesomeopensource.com/project/sojamo/controlp5#events)  
+*** [__CP5 Link02__](http://www.sojamo.de/libraries/controlP5/#examples)  
+*** [__CP5 Link03__](https://github.com/sojamo/controlp5/issues?page=3&q=is%3Aissue+is%3Aopen)   
+*** [__CP5 Link04__](https://github.com/sojamo/controlp5#help)  
 <br/>  
 
 [**:large_blue_circle: 전체 라이브러리 리스트 바로가기**](#processing30-library)
