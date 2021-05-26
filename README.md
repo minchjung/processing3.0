@@ -40,7 +40,7 @@
 ** [2D Transformation](https://processing.org/tutorials/transform2d/)  
 ** [Open GL ](https://github.com/processing/processing/blob/e107f6dfb8e322a5edcc6ed751cb1ef952619fb8/build/shared/revisions.txt)   
 
-[**사용 라이브러리**](#processing30-library)      
+[**:large_blue_circle: 라이브러리 리스트 바로가기**](#processing30-library)      
 <br/>  
 
 ## 📕 Study - Interpolation 
