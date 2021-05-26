@@ -48,11 +48,6 @@
 * [✅ CP5 Knob01](https://github.com/minchjung/processing3.0/commit/fafdac4ff132e402dba00fedc9ed177dc2bbb502)  
 * [✅ CP5 Knob02 + Grid-Matrix + Multi-Slider](https://github.com/minchjung/processing3.0/commit/643b0f6f0a06065b676697f5f30fceca88b6b5e1)  
 
-* __2D Transformation && OPEN GL__  
-** [2D Transformation](https://processing.org/tutorials/transform2d/)  
-** [Open GL ](https://github.com/processing/processing/blob/e107f6dfb8e322a5edcc6ed751cb1ef952619fb8/build/shared/revisions.txt)
-** [ControlP5](https://awesomeopensource.com/project/sojamo/controlp5#controllers) 
-
 
 [**:large_blue_circle: 라이브러리 리스트 바로가기**](#processing30-library)      
 <br/>  
