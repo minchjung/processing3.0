@@ -35,7 +35,11 @@
 * [:white_check_mark: Random Input 5/24 Issue about Memory](https://github.com/minchjung/processing3.0/commit/fcad487824c4f115f8d37043640a99223c0192fa)    
 * [:x: Serial Input01 5/25 Issue : ~~bar 회전~~,~~Serial-data & Board array 위치~~ ,  Parsing Check](https://github.com/minchjung/processing3.0/commit/d66de55d7f21ebbff9137a418a2aa0b65938a6e3)    
 * [:balloon: Serial Input02 5/25 ](https://github.com/minchjung/processing3.0/commit/571b36968dd9b7f08bafb403942223f8b9c4550c)  
-* [:balloon: Serial Input03 Set global variable ♦️ 5/26](https://github.com/minchjung/processing3.0/commit/3804a5d697be3829adddd344ae680be8a8f7a676)      
+* [:balloon: Serial Input03 Set global variable ♦️ 5/26](https://github.com/minchjung/processing3.0/commit/3804a5d697be3829adddd344ae680be8a8f7a676)   
+* [:balloon: Circle-meter w/Serial-Input]()  
+* [:balloon: ControlP5.Knob01]()  
+* [:apple: __Original Code_Circle__]()  
+* [:apple: __Original Code CP5.ex__]()     
 
 * __2D Transformation && OPEN GL__  
 ** [2D Transformation](https://processing.org/tutorials/transform2d/)  
