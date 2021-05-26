@@ -41,23 +41,21 @@
 * [:apple: __Original Code_Circle__](https://github.com/minchjung/processing3.0/commit/5f6daa1840eb48475d37ed77693a36dd85044a7b)  
 * [:apple: __Original Code CP5.ex__](https://github.com/minchjung/processing3.0/commit/be80c95e5c6214d8937085c14cb74d8f7fea5c2e)      
 
-#### 🟣 [CP5 - MultiDisplay]
+#### 🟣 [CP5 - MultiDisplay]  
 * [:x: CP5 Bar-Slider01 ⬅️ Issue using ArrayList](https://github.com/minchjung/processing3.0/commit/a883cce7293f9e10449b8b0a8f1d82d3e2f175ef)
 * [✅ CP5 Bar-Slider02](https://github.com/minchjung/processing3.0/commit/e0403eba5106cc9e3a1d3e9e24a6c701096ff983) 
 * [✅ CP5 Knob01](https://github.com/minchjung/processing3.0/commit/fafdac4ff132e402dba00fedc9ed177dc2bbb502)  
 * [✅ CP5 Knob02 + Grid-Matrix + Multi-Slider](https://github.com/minchjung/processing3.0/commit/643b0f6f0a06065b676697f5f30fceca88b6b5e1)  
-
 * __CP5 library link__  
 *** [:apple: __CP5 Link01__](https://awesomeopensource.com/project/sojamo/controlp5#events)  
 *** [:apple: __CP5 Link02__](http://www.sojamo.de/libraries/controlP5/#examples)  
-*** [:apple: __CP5 Link03__](https://github.com/sojamo/controlp5/issues?page=3&q=is%3Aissue+is%3Aopen) 
+*** [:apple: __CP5 Link03__](https://github.com/sojamo/controlp5/issues?page=3&q=is%3Aissue+is%3Aopen)   
 *** [:apple: __CP5 Link04__](https://github.com/sojamo/controlp5#help)  
-   
-
+<br/>  
 
 [**:large_blue_circle: 전체 라이브러리 리스트 바로가기**](#processing30-library)
 
-<br/>  
+
 
 ## 📕 Study - Interpolation 
 #### 1. Heatmap -Interpolation 
