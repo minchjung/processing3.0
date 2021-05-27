@@ -52,6 +52,9 @@ int alph;
 // time global
 int start=0 ;  
 int time ; 
+
+//signal 
+boolean signalStart=false;
 void settings(){
   size(canvasW,canvasH);
   smooth(2);
@@ -105,20 +108,23 @@ void setup(){
   //btnBar.onMove(new CallbackListener(){
   //  public void controlEvent(CallbackEvent ev) {
   //    ButtonBar bar = (ButtonBar)ev.getController();
-      
+
   //  }
   //});
 }
 
 void draw(){
-  frameRate(15);
-  myPort.write('s');
-  if(myPort.available() >=bytesLength){
-    noLoop();
-    start = millis(); //set start time 
-    drawGrid();
-    loop();
-  }  
+  frameRate(25);
+  while(signalStart){
+    myPort.write('s');
+    if(myPort.available() >=bytesLength){
+      noLoop();
+      start = millis(); //set start time 
+      drawGrid();
+      loop();
+    }
+  }
+    
 }
 void drawGrid(){
   start=millis(); 
@@ -145,12 +151,12 @@ void drawGrid(){
         else if(1<=idx && idx<=50) square(j*scale,(4-i)*scale,scale);
        }    
      }
-     println(bytesData[104],bytesData[103],bytesData[102],bytesData[101],bytesData[100]);
+     println(bytesData[104]&0xff ,bytesData[103]&0xff,bytesData[102]&0xff,bytesData[101]&0xff,bytesData[100]&0xff);
    }
-   //slider1.setValue(bytesData[101] & 0xff);
-   //slider2.setValue(bytesData[102] & 0xff);
-   //slider3.setValue(bytesData[103] & 0xff);  
-   //knob.setValue(bytesData[101] & 0xff);
+   slider1.setValue(bytesData[101] & 0xff +(int)random(10));
+   slider2.setValue(bytesData[102] & 0xff);
+   slider3.setValue(bytesData[103] & 0xff);  
+   knob.setValue(bytesData[101] & 0xff);
    while(millis()-start<=65) continue;
    //println(millis()-start);
 
@@ -179,19 +185,11 @@ public void controlEvent(ControlEvent theEvent) {
   if(theEvent.isFrom(cp5.getController("btnBar"))){
     ButtonBar bar =(ButtonBar) theEvent.getController();    
     int barIdx = bar.hover();
-    //if(barIdx==0) myPort.write('s');
+    //println("buttonClicked= "+barIdx);
+    if(barIdx==0) signalStart=true;
+    if(barIdx==1){
+      signalStart=false;
+      //myPort.clear();
+    } 
   }
 }
-
-
-//void getGrid(){
-//  //cp5.addTextlabel("val").setText(matrix.getValue()+"")
-//  //   .setPosition(barX + 100,10)
-//  //   .setColorValue(#C8FAFA);
-
-//}
-
-
-
-//void mouse
-  //fill(cp5.isMouseOver(cp5.getController("btnBar"))? hover:color(255));
