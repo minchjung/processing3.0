@@ -48,7 +48,7 @@
 * [✅ CP5 Bar-Slider02](https://github.com/minchjung/processing3.0/commit/e0403eba5106cc9e3a1d3e9e24a6c701096ff983) 
 * [✅ CP5 Knob01](https://github.com/minchjung/processing3.0/commit/fafdac4ff132e402dba00fedc9ed177dc2bbb502)  
 * [✅ CP5 Knob02 + Grid-Matrix + Multi-Slider](https://github.com/minchjung/processing3.0/commit/643b0f6f0a06065b676697f5f30fceca88b6b5e1)  
-* [✅ CP5 All-Multi-Slider with ClickListener](https://github.com/minchjung/processing3.0/commit/466f706280c6ae4ce23295f6781b71a759340d97)    
+* [:x: CP5 All-Multi-Slider with ClickListener](https://github.com/minchjung/processing3.0/commit/466f706280c6ae4ce23295f6781b71a759340d97)    
 
 * __CP5 library link__  
 ** [__CP5 Link01__](https://awesomeopensource.com/project/sojamo/controlp5#events)  
