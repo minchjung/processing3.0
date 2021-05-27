@@ -23,9 +23,9 @@
 * [✅: Grid blue Index Matching Complete 5/25](https://github.com/minchjung/processing3.0/commit/b9df2222b3c4c5a6e57315e8677a1753d99ef52e)  
 * [:balloon: Grid Sitronics 5/25](https://github.com/minchjung/processing3.0/commit/846b601b57906bcac59a7ee833bdcda8afcb9197)  
 
-#### 🟣 [Gauge]   Serial Parsing Check :interrobang:  
+#### 🟣 [Gauge]   ~~Serial Parsing Check :interrobang:~~  
 * [:white_check_mark: Gauge Random Input](https://githu:heavy_exclamation_mark:b.com/minchjung/processing3.0/commit/ebace53341075796a0de1eeaedff14f743d48062)  
-* [:white_check_mark: Gauge Serial Parsing_port01 :interrobang:](https://github.com/minchjung/processing3.0/commit/473a128a60ee23fb21d83480c4e9e58611c1a5ff)  
+* [:white_check_mark: Gauge Serial Parsing_port01](https://github.com/minchjung/processing3.0/commit/473a128a60ee23fb21d83480c4e9e58611c1a5ff)  
 * [:point_right: Gauge Serial Parsing_port02 :interrobang:  5/24 Mention about Serial Parsing](https://github.com/minchjung/processing3.0/commit/1834204652348db8372770da4412a3166e1a212f)    
 * __METER or Gauge Reference__     
 ** [**Meter Library**](https://github.com/L3Dnam/Professional-Gauges-with-Processing)  
@@ -42,6 +42,8 @@
 * [✅ Circle-meter w/Serial-Input](https://github.com/minchjung/processing3.0/commit/662bbc25b0391d42e2d0eee5192aecf0a0d34e99)     
 * [:apple: __Original Code_Circle__](https://github.com/minchjung/processing3.0/commit/5f6daa1840eb48475d37ed77693a36dd85044a7b)  
 * [:apple: __Original Code CP5.ex__](https://github.com/minchjung/processing3.0/commit/be80c95e5c6214d8937085c14cb74d8f7fea5c2e)      
+* [:bangbang::bangbang:  ParsingCheck!!](https://github.com/minchjung/processing3.0/commit/a854633ae17bcbc389ed383aa67112cbcf41d74d)  
+
 
 #### 🟣 [CP5 - MultiDisplay]  
 * [:x: CP5 Bar-Slider01 ⬅️ Issue using ArrayList](https://github.com/minchjung/processing3.0/commit/a883cce7293f9e10449b8b0a8f1d82d3e2f175ef)  
