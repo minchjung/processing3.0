@@ -26,8 +26,8 @@
 #### 🟣 [Gauge]   ~~Serial Parsing Check :interrobang:~~  
 * [:white_check_mark: Gauge Random Input](https://githu:heavy_exclamation_mark:b.com/minchjung/processing3.0/commit/ebace53341075796a0de1eeaedff14f743d48062)  
 * [:white_check_mark: Gauge Serial Parsing_port01](https://github.com/minchjung/processing3.0/commit/473a128a60ee23fb21d83480c4e9e58611c1a5ff)  
-* [:white_check_mark: Gauge Serial Parsing_port02 ⬅️~~Issue = Serial Parsing01~~](https://github.com/minchjung/processing3.0/commit/1834204652348db8372770da4412a3166e1a212f)  
-* [👉: :bangbang:  ParsingCheck  ⬅️Issue =Serial Parsing02 :bangbang: :bangbang:](https://github.com/minchjung/processing3.0/commit/a854633ae17bcbc389ed383aa67112cbcf41d74d)  
+* [:white_check_mark: Gauge Serial Parsing_port02](https://github.com/minchjung/processing3.0/commit/1834204652348db8372770da4412a3166e1a212f)  
+* [👉: :bangbang:  ParsingCheck  ⬅️Issue =Serial Parsing02-Complete :bangbang: :bangbang:](https://github.com/minchjung/processing3.0/commit/a854633ae17bcbc389ed383aa67112cbcf41d74d)  
 * __METER or Gauge Reference__     
 ** [**Meter Library**](https://github.com/L3Dnam/Professional-Gauges-with-Processing)  
 ** [**Meter reference**](https://thenewstack.io/off-the-shelf-hacker-use-processings-meter-library-to-build-gauges/)    
@@ -36,8 +36,8 @@
 
 #### 🟣 [MultiDisplay]  
 * [:white_check_mark: Layout](https://github.com/minchjung/processing3.0/commit/6a535f6693d6be9fb1b67593bec32c6421030e0e)   
-* [:white_check_mark: Random Input ~~⬅️Issue about Memory~~ 📑Soln Meter-library](https://github.com/minchjung/processing3.0/commit/fcad487824c4f115f8d37043640a99223c0192fa)  
-* [:x: Serial Input01⬅️ Issue : ~~bar 회전~~,~~Serial-data & Board array 위치~~ ,  Parsing Check](https://github.com/minchjung/processing3.0/commit/d66de55d7f21ebbff9137a418a2aa0b65938a6e3)    
+* [:white_check_mark: Random Input ⬅️Issue about Memory 📑Soln Meter-library](https://github.com/minchjung/processing3.0/commit/fcad487824c4f115f8d37043640a99223c0192fa)  
+* [:white_check_mark: Serial Input01⬅️](https://github.com/minchjung/processing3.0/commit/d66de55d7f21ebbff9137a418a2aa0b65938a6e3)    
 * [✅ Serial Input02](https://github.com/minchjung/processing3.0/commit/571b36968dd9b7f08bafb403942223f8b9c4550c)      
 * [✅ Serial Input03 Set global variable](https://github.com/minchjung/processing3.0/commit/3804a5d697be3829adddd344ae680be8a8f7a676)       
 * [✅ Circle-meter w/Serial-Input](https://github.com/minchjung/processing3.0/commit/662bbc25b0391d42e2d0eee5192aecf0a0d34e99)  
