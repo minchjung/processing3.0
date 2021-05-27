@@ -28,7 +28,6 @@
 * [:white_check_mark: Gauge Serial Parsing_port01](https://github.com/minchjung/processing3.0/commit/473a128a60ee23fb21d83480c4e9e58611c1a5ff)  
 * [:point_right: Gauge Serial Parsing_port02 ⬅️Issue = Serial Parsing01](https://github.com/minchjung/processing3.0/commit/1834204652348db8372770da4412a3166e1a212f)    
 * [:bangbang: :bangbang:  ParsingCheck  ⬅️Issue =Serial Parsing02 :bangbang: :bangbang:](https://github.com/minchjung/processing3.0/commit/a854633ae17bcbc389ed383aa67112cbcf41d74d)  
-
 * __METER or Gauge Reference__     
 ** [**Meter Library**](https://github.com/L3Dnam/Professional-Gauges-with-Processing)  
 ** [**Meter reference**](https://thenewstack.io/off-the-shelf-hacker-use-processings-meter-library-to-build-gauges/)    
