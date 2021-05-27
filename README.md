@@ -13,17 +13,17 @@
 * [:balloon: Pixel lerpColor lerInterpolation 16x16 to 320x320](https://github.com/minchjung/processing3.0/commit/10891942edd978d1e93fdf007e40d6474c53ba1a)    
 * [:balloon: Pixel lerpColor lerInterpolation 16x16 to 400x400](https://github.com/minchjung/processing3.0/commit/c26e4a2f49e489497fdf838975d4bacb418cc3cc)    
 
-#### 🟣 [Grid-Blue]   ~~Input & Array-index Check :interrobang:~~ , ~~Color Check :interrobang:~~ , ~~Serial Parsing Check :interrobang:~~     
+#### 🟣 [Grid-Blue] Index Checking ⁉️    
 * [:white_check_mark: Grid Blue with Random Input](https://github.com/minchjung/processing3.0/commit/4062ccdd8389fe838efb2d272532538fa0192eaa)  
 * [:white_check_mark: Grid Blue with Serial Parsing01](https://github.com/minchjung/processing3.0/commit/cdbf3628de6a8c12950a15dee3f85843e55f9955)  
 * [:white_check_mark: Grid Blue with Serial Parsing02](https://github.com/minchjung/processing3.0/commit/79d615e1bf78aa0f8a8141ca9ec017aff3ac6e23)    
 * [:white_check_mark: Grid Blue with Serial Parsing03 :interrobang:](https://github.com/minchjung/processing3.0/commit/bda92501fc080e658dc1f2e9951688c21d3374e3)  
 * [~~:white_check_mark: IndexChecking_temp 5/25~~](https://github.com/minchjung/processing3.0/commit/452e29d405e0d75bf6418eba16ff23773aade6e6)
 * [:white_check_mark: Grid blue Index Checking 5/25](https://github.com/minchjung/processing3.0/commit/0f10fcf92f51f93c3da9af628ea0f8f928a2875e)  
-* [✅: Grid blue Index Matching Complete 5/25](https://github.com/minchjung/processing3.0/commit/b9df2222b3c4c5a6e57315e8677a1753d99ef52e)  
+* [:point_right: Grid blue Index Matching Complete 5/25](https://github.com/minchjung/processing3.0/commit/b9df2222b3c4c5a6e57315e8677a1753d99ef52e)  
 * [:balloon: Grid Sitronics 5/25](https://github.com/minchjung/processing3.0/commit/846b601b57906bcac59a7ee833bdcda8afcb9197)  
 
-#### 🟣 [Gauge]   ~~Serial Parsing Check :interrobang:~~  
+#### 🟣 [Gauge]   Serial Parsing Check :interrobang:  
 * [:white_check_mark: Gauge Random Input](https://githu:heavy_exclamation_mark:b.com/minchjung/processing3.0/commit/ebace53341075796a0de1eeaedff14f743d48062)  
 * [:white_check_mark: Gauge Serial Parsing_port01](https://github.com/minchjung/processing3.0/commit/473a128a60ee23fb21d83480c4e9e58611c1a5ff)  
 * [:white_check_mark: Gauge Serial Parsing_port02](https://github.com/minchjung/processing3.0/commit/1834204652348db8372770da4412a3166e1a212f)  
