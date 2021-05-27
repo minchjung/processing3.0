@@ -21,13 +21,13 @@
 * [~~:white_check_mark: IndexChecking_temp 5/25~~](https://github.com/minchjung/processing3.0/commit/452e29d405e0d75bf6418eba16ff23773aade6e6)
 * [:white_check_mark: Grid blue Index Checking 5/25](https://github.com/minchjung/processing3.0/commit/0f10fcf92f51f93c3da9af628ea0f8f928a2875e)  
 * [:point_right: Grid blue Index Matching Complete 5/25](https://github.com/minchjung/processing3.0/commit/b9df2222b3c4c5a6e57315e8677a1753d99ef52e)  
-* [:balloon: Grid Sitronics 5/25](https://github.com/minchjung/processing3.0/commit/846b601b57906bcac59a7ee833bdcda8afcb9197)  
+* [:balloon: Grid Sitronics](https://github.com/minchjung/processing3.0/commit/846b601b57906bcac59a7ee833bdcda8afcb9197)  
 
 #### 🟣 [Gauge]   Serial Parsing Check :interrobang:  
 * [:white_check_mark: Gauge Random Input](https://githu:heavy_exclamation_mark:b.com/minchjung/processing3.0/commit/ebace53341075796a0de1eeaedff14f743d48062)  
 * [:white_check_mark: Gauge Serial Parsing_port01](https://github.com/minchjung/processing3.0/commit/473a128a60ee23fb21d83480c4e9e58611c1a5ff)  
 * [:white_check_mark: Gauge Serial Parsing_port02](https://github.com/minchjung/processing3.0/commit/1834204652348db8372770da4412a3166e1a212f)  
-* [👉: :bangbang:  ParsingCheck  ⬅️Issue =Serial Parsing02-Complete :bangbang: :bangbang:](https://github.com/minchjung/processing3.0/commit/a854633ae17bcbc389ed383aa67112cbcf41d74d)  
+* [👉 ParsingCheck 5/27 ⬅️Issue =Serial Parsing02-Complete :bangbang: :bangbang:](https://github.com/minchjung/processing3.0/commit/a854633ae17bcbc389ed383aa67112cbcf41d74d)  
 * __METER or Gauge Reference__     
 ** [**Meter Library**](https://github.com/L3Dnam/Professional-Gauges-with-Processing)  
 ** [**Meter reference**](https://thenewstack.io/off-the-shelf-hacker-use-processings-meter-library-to-build-gauges/)    
@@ -50,6 +50,7 @@
 * [✅ CP5 Knob01](https://github.com/minchjung/processing3.0/commit/fafdac4ff132e402dba00fedc9ed177dc2bbb502)  
 * [✅ CP5 Knob02 + Grid-Matrix + Multi-Slider __Random Input__](https://github.com/minchjung/processing3.0/commit/643b0f6f0a06065b676697f5f30fceca88b6b5e1)  
 * [:x: CP5 All-Multi-Slider with ClickListener __ROUGH__Wokringon](https://github.com/minchjung/processing3.0/blob/0094290aa79c622140c6c6d2c4ab4b35162278c3/Cp5_COM_Port02/Cp5_COM_Port02.pde)  
+* [👉 ParsingCheck 5/27 ⬅️Issue =Serial Parsing02-Complete :bangbang: :bangbang:](https://github.com/minchjung/processing3.0/commit/a854633ae17bcbc389ed383aa67112cbcf41d74d)  
 * __CP5 library link__  
 ** [__CP5 Link01__](https://awesomeopensource.com/project/sojamo/controlp5#events)  
 ** [__CP5 Link02__](http://www.sojamo.de/libraries/controlP5/#examples)  
