@@ -13,7 +13,7 @@
 * [:balloon: Pixel lerpColor lerInterpolation 16x16 to 320x320](https://github.com/minchjung/processing3.0/commit/10891942edd978d1e93fdf007e40d6474c53ba1a)    
 * [:balloon: Pixel lerpColor lerInterpolation 16x16 to 400x400](https://github.com/minchjung/processing3.0/commit/c26e4a2f49e489497fdf838975d4bacb418cc3cc)    
 
-#### 🟣 [Grid-Blue]   ~~Input & Array-index Check :interrobang:~~ , ~~Color Check :interrobang:~~ , Serial Parsing Check :interrobang:     
+#### 🟣 [Grid-Blue]   ~~Input & Array-index Check :interrobang:~~ , ~~Color Check :interrobang:~~ , ~~Serial Parsing Check :interrobang:~~     
 * [:white_check_mark: Grid Blue with Random Input](https://github.com/minchjung/processing3.0/commit/4062ccdd8389fe838efb2d272532538fa0192eaa)  
 * [:white_check_mark: Grid Blue with Serial Parsing01](https://github.com/minchjung/processing3.0/commit/cdbf3628de6a8c12950a15dee3f85843e55f9955)  
 * [:white_check_mark: Grid Blue with Serial Parsing02](https://github.com/minchjung/processing3.0/commit/79d615e1bf78aa0f8a8141ca9ec017aff3ac6e23)    
@@ -26,8 +26,8 @@
 #### 🟣 [Gauge]   ~~Serial Parsing Check :interrobang:~~  
 * [:white_check_mark: Gauge Random Input](https://githu:heavy_exclamation_mark:b.com/minchjung/processing3.0/commit/ebace53341075796a0de1eeaedff14f743d48062)  
 * [:white_check_mark: Gauge Serial Parsing_port01](https://github.com/minchjung/processing3.0/commit/473a128a60ee23fb21d83480c4e9e58611c1a5ff)  
-* [:x: Gauge Serial Parsing_port02 ⬅️Issue = Serial Parsing01](https://github.com/minchjung/processing3.0/commit/1834204652348db8372770da4412a3166e1a212f)    
-* [:bangbang: :bangbang:  ParsingCheck  ⬅️Issue =Serial Parsing02 :bangbang: :bangbang:](https://github.com/minchjung/processing3.0/commit/a854633ae17bcbc389ed383aa67112cbcf41d74d)  
+* [:white_check_mark: Gauge Serial Parsing_port02 ⬅️~~Issue = Serial Parsing01~~](https://github.com/minchjung/processing3.0/commit/1834204652348db8372770da4412a3166e1a212f)  
+* [👉: :bangbang:  ParsingCheck  ⬅️Issue =Serial Parsing02 :bangbang: :bangbang:](https://github.com/minchjung/processing3.0/commit/a854633ae17bcbc389ed383aa67112cbcf41d74d)  
 * __METER or Gauge Reference__     
 ** [**Meter Library**](https://github.com/L3Dnam/Professional-Gauges-with-Processing)  
 ** [**Meter reference**](https://thenewstack.io/off-the-shelf-hacker-use-processings-meter-library-to-build-gauges/)    
