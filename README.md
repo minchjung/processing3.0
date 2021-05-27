@@ -47,7 +47,7 @@
 * [:x: CP5 Bar-Slider01 ⬅️ Issue using ArrayList](https://github.com/minchjung/processing3.0/commit/a883cce7293f9e10449b8b0a8f1d82d3e2f175ef)  
 * [✅ CP5 Bar-Slider02](https://github.com/minchjung/processing3.0/commit/e0403eba5106cc9e3a1d3e9e24a6c701096ff983)  
 * [✅ CP5 Knob01](https://github.com/minchjung/processing3.0/commit/fafdac4ff132e402dba00fedc9ed177dc2bbb502)  
-* [✅ CP5 Knob02 + Grid-Matrix + Multi-Slider](https://github.com/minchjung/processing3.0/commit/643b0f6f0a06065b676697f5f30fceca88b6b5e1)  
+* [✅ CP5 Knob02 + Grid-Matrix + Multi-Slider __Random Input__](https://github.com/minchjung/processing3.0/commit/643b0f6f0a06065b676697f5f30fceca88b6b5e1)  
 * [:x: CP5 All-Multi-Slider with ClickListener __ROUGH__Wokringon](https://github.com/minchjung/processing3.0/blob/0094290aa79c622140c6c6d2c4ab4b35162278c3/Cp5_COM_Port02/Cp5_COM_Port02.pde)      
 
 * __CP5 library link__  
