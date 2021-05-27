@@ -37,7 +37,7 @@
 #### 🟣 [MultiDisplay]  
 * [:white_check_mark: Layout](https://github.com/minchjung/processing3.0/commit/6a535f6693d6be9fb1b67593bec32c6421030e0e)   
 * [:white_check_mark: Random Input ⬅️Issue about Memory 📑Soln Meter-library](https://github.com/minchjung/processing3.0/commit/fcad487824c4f115f8d37043640a99223c0192fa)  
-* [:white_check_mark: Serial Input01⬅️](https://github.com/minchjung/processing3.0/commit/d66de55d7f21ebbff9137a418a2aa0b65938a6e3)    
+* [:white_check_mark: Serial Input01](https://github.com/minchjung/processing3.0/commit/d66de55d7f21ebbff9137a418a2aa0b65938a6e3)    
 * [✅ Serial Input02](https://github.com/minchjung/processing3.0/commit/571b36968dd9b7f08bafb403942223f8b9c4550c)      
 * [✅ Serial Input03 Set global variable](https://github.com/minchjung/processing3.0/commit/3804a5d697be3829adddd344ae680be8a8f7a676)       
 * [✅ Circle-meter w/Serial-Input](https://github.com/minchjung/processing3.0/commit/662bbc25b0391d42e2d0eee5192aecf0a0d34e99)  
