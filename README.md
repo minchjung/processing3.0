@@ -42,7 +42,7 @@
 * [✅ Circle-meter w/Serial-Input](https://github.com/minchjung/processing3.0/commit/662bbc25b0391d42e2d0eee5192aecf0a0d34e99)     
 * [:apple: __Original Code_Circle__](https://github.com/minchjung/processing3.0/commit/5f6daa1840eb48475d37ed77693a36dd85044a7b)  
 * [:apple: __Original Code CP5.ex__](https://github.com/minchjung/processing3.0/commit/be80c95e5c6214d8937085c14cb74d8f7fea5c2e)      
-* [:bangbang::bangbang:  ParsingCheck!!](https://github.com/minchjung/processing3.0/commit/a854633ae17bcbc389ed383aa67112cbcf41d74d)  
+* [:bangbang: :bangbang:  ParsingCheck :bangbang: :bangbang: ](https://github.com/minchjung/processing3.0/commit/a854633ae17bcbc389ed383aa67112cbcf41d74d)  
 
 
 #### 🟣 [CP5 - MultiDisplay]  
