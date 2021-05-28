@@ -99,8 +99,8 @@ void draw(){
 void getBytes(){
   int start = millis();
   while(myPort.available()>0 || millis()-start <25){
-    if(myPort.available() <105 && millis()-start >=550) break;
     if(myPort.available() < 105) continue; 
+    if(millis()-start >=550) break;
     bytesData = myPort.readBytes();
   } 
 }
