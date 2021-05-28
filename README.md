@@ -66,6 +66,7 @@
 * [EventListener03](https://github.com/minchjung/processing3.0/blob/8fb9dd5b30e366e15c32e72557f152a7530673c3/last04/last04.pde)   
 * [EventListener04 /w Title and Color Coral01](https://github.com/minchjung/processing3.0/commit/4c74f32d1f885f9f65bfd9e32aa39a44485e434d)  
 * [EventListener05 /w Title and Color Coral02](https://github.com/minchjung/processing3.0/blob/master/last05/last05.pde)  
+* [Last06 Memory & Frame Check](https://github.com/minchjung/processing3.0/commit/4c44e28d192d7e824bae582b74b1e124e68eb991)  
   
 
 <br/>  
