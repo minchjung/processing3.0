@@ -1,4 +1,4 @@
-## 🎯 Project: Heatmap by Refactoring && Interpolation   
+## 🎯 Project:GUI from Serial Data  
 [ **:large_blue_circle: 라이브러리 리스트 바로가기**](#processing30-library)  
 
 #### 🟠 Pre-Works  
