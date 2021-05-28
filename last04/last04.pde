@@ -5,15 +5,17 @@ import processing.serial.*;
 Serial myPort; 
 // Set CP5
 ControlP5 cp5; 
-Slider slider[] =new Slider[3];
+Slider slider[];
 ButtonBar btnBar;
 Knob myKnob; 
 
-// Bytes global
+// Bytes, signal global
 final int threshold =35; //min-value to display
 final int bytesLength =105;
 byte bytesData[] ; 
 boolean startSig;
+int STR; // your start signal from Serial-Port
+int END;// your end signal from Serial-Port
 
 // Canvas global
 final int scale =40; 
@@ -37,20 +39,20 @@ int sensorVal;
 
 // Setting and setup 
 void settings(){
-  //Set the canvas   
   size(canvasW,canvasH);
-  //colorMode(HSB,360,1,1,255); //Now-RGB 
 }
 
 void setup(){
   //Initialize array 
   bytesData = new byte[bytesLength];// Serial Data 
+  slider = new Slider[3]; // bar-Slider array
 
   //Initialize Serial Port 
   myPort = new Serial(this,Serial.list()[0],115200);  
   String portName=""; 
   for(String name : Serial.list()) portName+=name; //gets your Port number
-  //startSig (Dont set any value on global area--Controller resets the value if not set on here)
+  STR=83; // set Start & and End signal on your Serial
+  END=69; //  
   startSig=false;
 
   //Iniitialize CP5 
@@ -62,7 +64,6 @@ void setup(){
                  .setFont(font)
                  .setColorActive(color(50,255,50));
   } 
-  
   //Set Knob
   myKnob = cp5.addKnob("Pressure")
              .setRange(0,360)
@@ -80,7 +81,7 @@ void setup(){
               .setColorActive(color(245,130,100))
               .addItems(split("START STOP "+portName," "))
               ;
- }
+}
 
 void draw(){
   frameRate(FPS);
@@ -96,7 +97,7 @@ void draw(){
 }
 
 void getBytes(){
-  int start = millis(); 
+  int start = millis();
   while(myPort.available()>0 || millis()-start <25){
     if(myPort.available() <105 && millis()-start >=550) break;
     if(myPort.available() < 105) continue; 
@@ -104,13 +105,12 @@ void getBytes(){
   } 
 }
 
-void drawGrid(){
+void drawGrid(){  
   int start2=millis(); 
 
-  if(bytesData[0]==83 && bytesData[104]==69){
+  if((bytesData[0] & 0xff)==STR && (bytesData[bytesLength-1] & 0xff)==END){
     int idx = 0 ;
-    //translate(margin_left,margin_top);
-    stroke(50,120,255);// boundary-line (color:lawngreen)
+    stroke(50,120,255);// boundary-line
     strokeWeight(0.2); 
     fill(51); //background
     rect(margin_left,margin_top + 50,gridCol*scale,gridRow*scale);
@@ -126,7 +126,6 @@ void drawGrid(){
         else if(1<=idx && idx<=50) square(j*scale + margin_left,(4-i)*scale + margin_top +50,scale);
        }    
      }
-     //println(bytesData[104] & 0xff,bytesData[103] & 0xff,bytesData[102]& 0xff,bytesData[101]& 0xff,bytesData[100]& 0xff);
    }
    while(millis()-start2<=35) continue;
 }
@@ -144,17 +143,15 @@ void drawKnob(){
  myKnob.setValue(sensorVal);
 }
 
-public void controlEvent(ControlEvent theEvent) {
+public void controlEvent(ControlEvent theEvent) { 
   if(theEvent.isFrom(cp5.getController("btnBar"))){
     ButtonBar bar =(ButtonBar) theEvent.getController();    
     int barIdx = bar.hover();
-    //println("buttonClicked= "+barIdx);
     if(barIdx==0) startSig=true;
     if(barIdx==1){
       startSig=false;
-      //println(myPort.available());
       myPort.clear();
-      //println(myPort.available());
+    
     } 
   }
 }
