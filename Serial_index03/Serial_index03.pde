@@ -5,7 +5,7 @@ int scale = 50 ;
 Serial myPort;  // The serial port
 
 void settings(){
-  size(600,600);
+  size(700,600);
 }
 void setup() {
   frameRate(30);
@@ -31,27 +31,50 @@ void draw() {
       setArr() ; 
     }
 }
-int val ; 
-int r=100;
+int colors;
+int start;
 void setArr(){
+  
   bytesData = myPort.readBytes();
-  //println("start = "+ bytesData[0]+ ",  end = "+ bytesData[104]);
-  //println("my Port Availbalbe = "+ myPort.available());
-  //println(bytesData.length);
+  for(int i = 0 ; i < 3 ; i ++){
+    fill(255);
+    text( i+ ",  " + (bytesData[i]&0xff),580, 100+50*i );
+    text( 102+i+ ",  " + (bytesData[102+i]&0xff),580, 300+50*i);
+  }
+
   if(bytesData[0]==83 && bytesData[104]==69){
-    
+    textSize(12);
+    println(2,bytesData[2]);
     int idx = 2;
+    start=millis();
     for(int i = 0 ; i < 10 ; i++){
       for(int j = 0 ; j < 10 ; j++){      
-        fill(51);
         stroke(255);
-        rect(50+j*scale,50+i*scale,scale,scale);
-        textSize(20);
-        fill(255);
-        if(2<=idx && i<52){ text(""+idx,50+j*scale+16,50+i*scale+30,scale+50); }
-        else if(52<=idx && idx<102) { text(""+idx,50+j*scale+16,50+(4-i)*scale+30,scale+50); }           
+        fill(51);
+        if(idx!=101 && (bytesData[idx]&0xff)>=25){ colors=255; }
+        if(2<=idx && idx<52){ 
+          square(50+j*scale, 50+(4-i)*scale,  scale);
+          fill(255);
+          text(idx+", ", 50+j*scale+8, 50+(4-i)*scale+30,  scale+50); 
+          fill(255,colors,0);
+          //println(colors);
+          text((bytesData[idx]&0xff)+"", 50+j*scale+8+28, 50+(4-i)*scale+30,  scale+50); 
+          colors=0;
+        }
+        if(52<=idx && idx<102) {
+          stroke(255);
+          fill(51);
+          square(50+j*scale,  50+i*scale,  scale); 
+          fill(255);
+          text(idx+", ", 50+j*scale+8, 50+i*scale+30,  scale+50);
+          fill(255,colors,0);
+          text((bytesData[idx]&0xff)+"", 50+j*scale+8+28, 50+i*scale+30,  scale+50);
+          
+          colors=0;
+        }           
         idx++;
       }
     }
   }
+  while(millis()-start<=30) continue ; 
 } 
