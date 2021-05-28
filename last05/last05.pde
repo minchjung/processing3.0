@@ -121,9 +121,9 @@ void drawGrid(){
     stroke(50,120,255);// boundary-line
     strokeWeight(0.2); 
     fill(51); //background
-    rect(margin_left,margin_top + 50,gridCol*scale,gridRow*scale);
+    rect(margin_left,margin_top + 50,gridCol*scale,gridRow*scale); //stroke on grid-area
     fill(255);
-    text("GRID", gridCol*scale/2, canvasH-30);
+    text("GRID", gridCol*scale/2, canvasH-30); //Title 
     for(int i = 0 ; i < gridRow; i++){
       for(int j = 0 ; j < gridCol ; j++){
         idx++;
