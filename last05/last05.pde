@@ -18,48 +18,47 @@ int STR; // your start signal from Serial-Port
 int END;// your end signal from Serial-Port
 
 // Canvas global
-final int scale =40; 
 final int canvasW =1000;
 final int canvasH =600;
-final int gridRow =10;
-final int gridCol =10;
-final int FPS =30;
+final int FPS =30; //Frame Rate 
 PFont font ; 
 
 // Grid global 
-final int margin_top =80;
+final int scale =40; 
+final int gridRow =10; // Grid Size
+final int gridCol =10; // (40x10,40x10) 
+final int margin_top =80; 
 final int margin_left =40;
-int blue;
-int alph;
+int blue; // Grid input value1
+int alph; // Grid input value2
 
 // Bar global
-final int meterX =580;
+final int meterX =580; //Bar-Initial X & Y
 final int meterY =200;
-int sensorVal; 
+int sensorVal; // Bar input value
 
 // Setting and setup 
 void settings(){
   size(canvasW,canvasH);
 }
-
 void setup(){
   //Initialize array 
   bytesData = new byte[bytesLength];// Serial Data 
-  slider = new Slider[3]; // bar-Slider array
+  slider = new Slider[3]; // Bar-Slider array
 
   //Initialize Serial Port 
   myPort = new Serial(this,Serial.list()[0],115200);  
   String portName=""; 
-  for(String name : Serial.list()) portName+=name; //gets your Port number
-  STR=83; // set Start & and End signal on your Serial
+  for(String name : Serial.list()) portName+=name; //Set Port number
+  STR=83; // Set Start & and End signal on your Serial-Port (int)
   END=69; //  
-  startSig=false;
+  startSig=false; // Set this for btn ClickEvent
 
   //Iniitialize CP5 
-  font = createFont("arial",14);
+  font = createFont("arial",14); //set Font (Not for all)
   cp5 = new ControlP5(this);
   //Set Bar-slider array         
-  for(int i = 0 ; i<3; i++){
+  for(int i = 0 ; i<3; i++){ //   (Label name, min, max, xPos, yPos, width, height)
     slider[i]=cp5.addSlider("p10"+(i+1),0,255,0,520 + margin_left, 50*i + margin_top-20,350,40 )
                  .setFont(font)
                  .setColorActive(color(245,130,100))
@@ -67,9 +66,9 @@ void setup(){
                  ;
   } 
   //Set Knob
-  myKnob = cp5.addKnob("Meter")
+  myKnob = cp5.addKnob("Meter") 
              .setRange(0,360)
-             .setValue(0)
+             .setValue(0) //default value
              .setPosition(meterX + margin_left-20, meterY + margin_top-20)
              .setRadius(135)
              .setFont(createFont("arial",18))
@@ -80,21 +79,19 @@ void setup(){
   btnBar = cp5.addButtonBar("btnBar")
               .setPosition(45,50)
               .setSize(400,40)
-              .setFont(createFont("arial",12))
+              .setFont(createFont("arial",15))
               .setColorActive(color(245,130,100))
               .addItems(split("START STOP "+portName," "))
               ;
-//Set Bar-Slider 
+//Set Title (Bar-Slider) 
   cp5.addTextlabel("bar").setText("PRESSURE-BAR")
      .setPosition(580 + 80,15)
-     .setFont(createFont("arial",20))
-     ;
+     .setFont(createFont("arial",20));
+//Set Title (Company)     
   cp5.addTextlabel("TITLE").setText("POLYWORKS")
      .setPosition(870,570)
      .setFont(createFont("arial",16))
      .setColor(color(255,180));
-     ;
-
 }
 
 void draw(){
@@ -102,14 +99,13 @@ void draw(){
   background(25);
   println(startSig, myPort.available());
   if(startSig) {
-    myPort.write('s');
+    myPort.write('s'); // ** STR=83 doesnt work **
     getBytes();  
     drawGrid();
     drawBar();
     drawKnob();
   }    
 }
-
 void getBytes(){
   int start = millis();
   while(myPort.available()>0 || millis()-start <25){
