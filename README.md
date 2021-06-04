@@ -78,7 +78,7 @@
 ## 📕 Study - Interpolation 
 #### 1. Heatmap -Interpolation 
 * [**원본 코드**](https://forum.processing.org/two/discussion/26588/how-to-simplify-this-code-heat-map)  
-* [**STUDY 주석**](https://github.com/minchjung/processing3.0/commit/98749ab49862dbc37346b00bc82244c1e05cc050)  
+* [**STUDY 주석**](https://github.com/minchjung/processing3.0/blob/858ae89c0ee623e1a3949e67094124b446ebb6c9/Heatmap_with_Opinion/Heatmap_with_Opinion.pdeg3.0/commit/98749ab49862dbc37346b00bc82244c1e05cc050)  
 
 #### 2. Bytes Operation && Serial Parsing 
 * [**원본 코드**](https://www.sensitronics.com/tutorials/fsr-matrix-array/page8.php)   
