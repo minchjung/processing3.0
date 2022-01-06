@@ -1,5 +1,9 @@
 ## 🎯 Project:GUI from Serial Data  
 [ **:large_blue_circle: 라이브러리 리스트 바로가기**](#processing30-library)  
+#### Demo Look v1
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/78589751/148374943-66c15482-e6c5-44c8-b100-15f7fa030219.gif)
+#### Demo Look v2
+
 
 #### 🟠 Pre-Works  
 * [:white_check_mark: 01.HSB Pixel Noise-Perlin](https://github.com/minchjung/processing3.0/commit/5eb564780b49d74e4ba613e2fb4b23739890c62a)  
